@@ -29,6 +29,9 @@ M0 骨架（进行中，前段完成）— 范围见 docs/PLAN.md §9
 2. M0 验收：本地完整学完一课留下 attempts 记录 → `/milestone-review` + `git tag M0`
 3. L04-L07 起草排队（内容领先学习进度一周即可，别囤）
 
+> 灾备：remote `origin` = git@github.com:ZiaoLiu-1/english-learning.git（私有）。push 已由 gary 明授权用于灾备；后续常规 push 仍按红线等 gary 喊。
+> whisper 任务表方向已定：独立 `transcribe_jobs`，不复用 llm_jobs，共享 job runner 抽象——见 ADR-003（M3 落地）。
+
 ## 风险 / 待 gary 决策
 
 - **部署（M1，方案已批 ADR-002）**：`ziaoliu.io/english`，照 /bridgesignal 模式（basePath 构建 + 容器 127.0.0.1:8091 + 宿主 nginx location）；执行条件：`client_max_body_size 25m`、`/english/audio/` 走 nginx alias、whisper 异步任务。改 nginx conf 与部署动手前需 gary 明确放行（红线不变）
