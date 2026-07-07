@@ -63,10 +63,19 @@ export const correctExercise = exerciseBase.extend({
   payload: z.object({
     tokens: z.array(z.string().min(1)).min(2),
   }),
-  answer: z.object({
-    error_index: z.number().int().min(0),
-    corrections: z.array(z.string().min(1)).min(1),
-  }),
+  // replacement: { error_index, corrections } — splicing corrections[i] into
+  // tokens[error_index] must yield a fully correct sentence.
+  // deletion:    { error_index, delete: true } — the token is extraneous
+  // (e.g. *I am agree*); the learner fixes it by leaving the box empty.
+  answer: z
+    .object({
+      error_index: z.number().int().min(0),
+      corrections: z.array(z.string().min(1)).min(1).optional(),
+      delete: z.literal(true).optional(),
+    })
+    .refine((a) => (a.corrections !== undefined) !== (a.delete === true), {
+      message: "answer must have exactly one of corrections | delete:true",
+    }),
 });
 
 export const minimalPairExercise = exerciseBase.extend({

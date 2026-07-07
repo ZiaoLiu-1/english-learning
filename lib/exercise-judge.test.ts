@@ -81,3 +81,46 @@ describe("judgeCorrect (two-part: find the error + fix it)", () => {
     expect(r.correct).toBe(true);
   });
 });
+
+describe("judgeCorrect deletion semantics (extraneous word, e.g. *I am agree*)", () => {
+  const answer = { error_index: 1, delete: true as const };
+
+  it("right position + empty fix (= delete) → score 1", () => {
+    const r = judgeCorrect(answer, { index: 1, text: "" });
+    expect(r).toEqual({
+      correct: true,
+      positionCorrect: true,
+      correctionCorrect: true,
+      score: 1,
+    });
+  });
+
+  it("whitespace-only text also counts as deletion", () => {
+    expect(judgeCorrect(answer, { index: 1, text: "   " }).correct).toBe(true);
+  });
+
+  it("right position but a replacement typed → 0.5", () => {
+    const r = judgeCorrect(answer, { index: 1, text: "really" });
+    expect(r.score).toBe(0.5);
+    expect(r.correct).toBe(false);
+  });
+
+  it("wrong position → 0 even with empty text", () => {
+    expect(judgeCorrect(answer, { index: 0, text: "" }).score).toBe(0);
+  });
+
+  it("replacement answers do NOT accept empty text", () => {
+    const r = judgeCorrect(
+      { error_index: 1, corrections: ["likes"] },
+      { index: 1, text: "" },
+    );
+    expect(r.score).toBe(0.5);
+  });
+
+  it("malformed answer with neither corrections nor delete never fully scores", () => {
+    // schema forbids this shape; the judge stays defensive anyway
+    const r = judgeCorrect({ error_index: 1 }, { index: 1, text: "likes" });
+    expect(r.score).toBe(0.5);
+    expect(r.correct).toBe(false);
+  });
+});

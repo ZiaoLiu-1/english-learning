@@ -94,7 +94,13 @@ prereq: [L03, L04]
   "explain_zh": "主语要用主格 I，Me 是宾格。"
 }
 ```
-`tokens` 是整句分词（不含标点），`error_index` 指向错误 token（从 0 数），`corrections` 列出可接受的修正词。
+`tokens` 是整句分词（不含标点），`error_index` 指向错误 token（从 0 数）。答案二选一：
+- **替换型**：`"answer": { "error_index": N, "corrections": ["修正词"] }`。
+  **自查**：把 corrections[0] 按空格拆开替换进 tokens[N] 后，整句必须完全正确
+  （*I am agree* 若指 am 改 "agree" 会得到 *I agree agree with you*——错，该用删除型）。
+- **删除型**（多余词，如 be+实义动词叠用）：`"answer": { "error_index": N, "delete": true }`，
+  指向多余的那个词；学习者把修正框留空即为删除。
+- 修正词禁止含标点或跨句结构（不许 ". I want" 这类）。
 
 ### 3) `content/sentences/pack-L07.json`
 

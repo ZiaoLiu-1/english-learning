@@ -16,7 +16,10 @@ export interface ClozeBlank {
 
 export interface CorrectAnswer {
   error_index: number;
-  corrections: string[];
+  /** replacement mode: acceptable fixes for the wrong token */
+  corrections?: string[];
+  /** deletion mode: the token is extraneous; an empty fix is the answer */
+  delete?: true;
 }
 
 export interface CorrectResponse {
@@ -58,8 +61,11 @@ export function judgeCorrect(
   score: 0 | 0.5 | 1;
 } {
   const positionCorrect = response.index === answer.error_index;
-  const correctionCorrect =
-    positionCorrect && answer.corrections.some((c) => equivalent(c, response.text));
+  const fixCorrect = answer.delete
+    ? response.text.trim() === ""
+    : response.text.trim() !== "" &&
+      (answer.corrections ?? []).some((c) => equivalent(c, response.text));
+  const correctionCorrect = positionCorrect && fixCorrect;
   const score = positionCorrect ? (correctionCorrect ? 1 : 0.5) : 0;
   return { correct: score === 1, positionCorrect, correctionCorrect, score };
 }
