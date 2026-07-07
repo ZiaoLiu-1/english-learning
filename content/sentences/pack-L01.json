@@ -139,9 +139,9 @@
     },
     {
       "uid": "L01-s-16",
-      "en": "The shops are open at eight.",
-      "zh": "这些店八点开着门。",
-      "tokens": ["The", "shops", "are", "open", "at", "eight"],
+      "en": "The shops open at eight.",
+      "zh": "这些店八点开门。",
+      "tokens": ["The", "shops", "open", "at", "eight"],
       "alt": [],
       "gp_codes": [],
       "level": 2

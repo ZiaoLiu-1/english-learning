@@ -162,11 +162,11 @@
       "type": "cloze",
       "difficulty": 2,
       "payload": {
-        "text": "You ___ this song, and I like it too.",
+        "text": "You ___ this song, and I like it too.（“喜欢”，用 like）",
         "blanks": [{ "accept": ["like"] }]
       },
       "answer": {},
-      "explain_zh": "后半句 like it too 给了提示，前半也是“喜欢这首歌”，用动作动词 like；实义动词前不加 be，主语 You 用原形 like。"
+      "explain_zh": "like 是实义动词，直接作谓语，别写 are like；实义动词前不加 be，主语 You 用原形 like。"
     },
     {
       "uid": "L03-cloze-06",
