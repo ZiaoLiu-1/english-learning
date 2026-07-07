@@ -25,5 +25,5 @@ M0 骨架（未开始）— 范围见 docs/PLAN.md §9
 
 ## 风险 / 待 gary 决策
 
-- 服务器部署（PLAN §10）动手前需 gary 确认放行 80/443 与 docker 环境
+- **部署目标已定：`ziaoliu.io/english`**（gary 2026-07-07 口头确认；PLAN §10 已更新，basePath 已按 env 接线）。M1 部署动手前仍需 gary 提供/确认：① ziaoliu.io 的 DNS 是否已指向 150.230.24.148；② 个人站现在由哪个服务托管（决定 /english 反代接法）；③ 放行 80/443 与 docker 环境。动服务器前必须 gary 明确放行（CLAUDE.md 红线）
 - 内容审校节奏：gary 每天 2-3 课，从 M1 前一周开始

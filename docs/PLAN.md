@@ -566,7 +566,7 @@ due = today + interval
 | 服务 | 镜像 | 资源 | 说明 |
 |---|---|---|---|
 | app | 本仓库 Dockerfile（next standalone） | ~300MB RAM | 挂载 `/data`（SQLite+音频） |
-| caddy | caddy:2 | 极小 | 自动 HTTPS；无域名可用 `150-230-24-148.sslip.io` 免费拿证书，后续买域名换掉即可 |
+| caddy | caddy:2 | 极小 | 自动 HTTPS；**部署目标：`ziaoliu.io/english`（gary 2026-07-07 确认，个人站子路径）**；app 以 `NEXT_BASE_PATH=/english` 构建。部署前需确认：ziaoliu.io DNS 是否指向本服务器、个人站现由什么服务（若有既有 web 服务器则由它反代 /english，Caddy 不抢 80/443） |
 | languagetool | erikvl87/languagetool | ~1.5GB RAM（限 2GB） | 仅内网暴露给 app（P1 再开） |
 | whisper | 自制 faster-whisper HTTP 微服务 | 峰值 ~2GB，`small` int8 CPU | compose profile 按需启动（M3 起） |
 
