@@ -169,6 +169,11 @@ export function checkExercise(ex: ContentExercise, file: string): ContentIssue[]
       if (ex.answer.error_index >= ex.payload.tokens.length) {
         at(`error_index ${ex.answer.error_index} out of range for ${ex.payload.tokens.length} tokens`);
       }
+      for (const c of ex.answer.corrections ?? []) {
+        if (/[.,!?;:"“”…]/.test(c)) {
+          at(`correction "${c}" contains punctuation — forbidden by contract (use delete:true or rewrite)`);
+        }
+      }
       break;
   }
   return issues;

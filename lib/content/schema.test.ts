@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { correctExercise } from "@/lib/content/schema";
+import { checkExercise, correctExercise } from "@/lib/content/schema";
 
 const base = {
   uid: "L03-correct-01",
@@ -37,5 +37,25 @@ describe("correctExercise answer: corrections XOR delete", () => {
   it("rejects neither corrections nor delete", () => {
     const r = correctExercise.safeParse({ ...base, answer: { error_index: 1 } });
     expect(r.success).toBe(false);
+  });
+});
+
+describe("checkExercise: corrections must not contain punctuation", () => {
+  it("flags a punctuation-bearing correction", () => {
+    const ex = correctExercise.parse({
+      ...base,
+      answer: { error_index: 1, corrections: [". I want"] },
+    });
+    const issues = checkExercise(ex, "t.json");
+    expect(issues).toHaveLength(1);
+    expect(issues[0].message).toMatch(/punctuation/);
+  });
+
+  it("passes clean multi-word corrections", () => {
+    const ex = correctExercise.parse({
+      ...base,
+      answer: { error_index: 1, corrections: ["are at"] },
+    });
+    expect(checkExercise(ex, "t.json")).toEqual([]);
   });
 });
