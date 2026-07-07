@@ -1,12 +1,17 @@
 {
   "pack": "L02",
-  "status": "draft",
+  "status": "approved",
   "sentences": [
     {
       "uid": "L02-s-01",
       "en": "I work from home.",
       "zh": "我在家办公。",
-      "tokens": ["I", "work", "from", "home"],
+      "tokens": [
+        "I",
+        "work",
+        "from",
+        "home"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -15,7 +20,12 @@
       "uid": "L02-s-02",
       "en": "We talk every day.",
       "zh": "我们每天聊天。",
-      "tokens": ["We", "talk", "every", "day"],
+      "tokens": [
+        "We",
+        "talk",
+        "every",
+        "day"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -24,7 +34,12 @@
       "uid": "L02-s-03",
       "en": "You look tired today.",
       "zh": "你今天看起来累了。",
-      "tokens": ["You", "look", "tired", "today"],
+      "tokens": [
+        "You",
+        "look",
+        "tired",
+        "today"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -33,7 +48,13 @@
       "uid": "L02-s-04",
       "en": "They are my best friends.",
       "zh": "他们是我最好的朋友。",
-      "tokens": ["They", "are", "my", "best", "friends"],
+      "tokens": [
+        "They",
+        "are",
+        "my",
+        "best",
+        "friends"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -42,7 +63,12 @@
       "uid": "L02-s-05",
       "en": "I like strong coffee.",
       "zh": "我喜欢浓咖啡。",
-      "tokens": ["I", "like", "strong", "coffee"],
+      "tokens": [
+        "I",
+        "like",
+        "strong",
+        "coffee"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -51,7 +77,13 @@
       "uid": "L02-s-06",
       "en": "We watch movies on weekends.",
       "zh": "我们周末看电影。",
-      "tokens": ["We", "watch", "movies", "on", "weekends"],
+      "tokens": [
+        "We",
+        "watch",
+        "movies",
+        "on",
+        "weekends"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -60,7 +92,13 @@
       "uid": "L02-s-07",
       "en": "You always keep your word.",
       "zh": "你总是说话算话。",
-      "tokens": ["You", "always", "keep", "your", "word"],
+      "tokens": [
+        "You",
+        "always",
+        "keep",
+        "your",
+        "word"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -69,7 +107,13 @@
       "uid": "L02-s-08",
       "en": "I give you my number.",
       "zh": "我把号码给你。",
-      "tokens": ["I", "give", "you", "my", "number"],
+      "tokens": [
+        "I",
+        "give",
+        "you",
+        "my",
+        "number"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -78,7 +122,13 @@
       "uid": "L02-s-09",
       "en": "We send them a message.",
       "zh": "我们给他们发条消息。",
-      "tokens": ["We", "send", "them", "a", "message"],
+      "tokens": [
+        "We",
+        "send",
+        "them",
+        "a",
+        "message"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -87,7 +137,13 @@
       "uid": "L02-s-10",
       "en": "They call me Xiao Li.",
       "zh": "他们叫我小李。",
-      "tokens": ["They", "call", "me", "Xiao", "Li"],
+      "tokens": [
+        "They",
+        "call",
+        "me",
+        "Xiao",
+        "Li"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -96,7 +152,13 @@
       "uid": "L02-s-11",
       "en": "We keep the room warm.",
       "zh": "我们让房间保持暖和。",
-      "tokens": ["We", "keep", "the", "room", "warm"],
+      "tokens": [
+        "We",
+        "keep",
+        "the",
+        "room",
+        "warm"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -105,7 +167,12 @@
       "uid": "L02-s-12",
       "en": "You make me happy.",
       "zh": "你让我开心。",
-      "tokens": ["You", "make", "me", "happy"],
+      "tokens": [
+        "You",
+        "make",
+        "me",
+        "happy"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -114,7 +181,12 @@
       "uid": "L02-s-13",
       "en": "I feel great today.",
       "zh": "我今天感觉很棒。",
-      "tokens": ["I", "feel", "great", "today"],
+      "tokens": [
+        "I",
+        "feel",
+        "great",
+        "today"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -123,7 +195,13 @@
       "uid": "L02-s-14",
       "en": "They tell us the truth.",
       "zh": "他们跟我们说实话。",
-      "tokens": ["They", "tell", "us", "the", "truth"],
+      "tokens": [
+        "They",
+        "tell",
+        "us",
+        "the",
+        "truth"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -132,7 +210,14 @@
       "uid": "L02-s-15",
       "en": "We are very busy this week.",
       "zh": "我们这周很忙。",
-      "tokens": ["We", "are", "very", "busy", "this", "week"],
+      "tokens": [
+        "We",
+        "are",
+        "very",
+        "busy",
+        "this",
+        "week"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -141,7 +226,14 @@
       "uid": "L02-s-16",
       "en": "I want a cup of tea.",
       "zh": "我想要一杯茶。",
-      "tokens": ["I", "want", "a", "cup", "of", "tea"],
+      "tokens": [
+        "I",
+        "want",
+        "a",
+        "cup",
+        "of",
+        "tea"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -150,7 +242,13 @@
       "uid": "L02-s-17",
       "en": "My friends drive me home.",
       "zh": "我朋友们开车送我回家。",
-      "tokens": ["My", "friends", "drive", "me", "home"],
+      "tokens": [
+        "My",
+        "friends",
+        "drive",
+        "me",
+        "home"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 3
@@ -159,7 +257,15 @@
       "uid": "L02-s-18",
       "en": "You and I make a good team.",
       "zh": "你和我是个好搭档。",
-      "tokens": ["You", "and", "I", "make", "a", "good", "team"],
+      "tokens": [
+        "You",
+        "and",
+        "I",
+        "make",
+        "a",
+        "good",
+        "team"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 3

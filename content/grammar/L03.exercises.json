@@ -1,6 +1,6 @@
 {
   "lesson": "L03",
-  "status": "draft",
+  "status": "approved",
   "exercises": [
     {
       "uid": "L03-mcq-01",
@@ -8,9 +8,15 @@
       "difficulty": 1,
       "payload": {
         "question": "“我同意你。” 下面哪句对？",
-        "options": ["I am agree with you.", "I agree with you.", "I am agree you."]
+        "options": [
+          "I am agree with you.",
+          "I agree with you.",
+          "I am agree you."
+        ]
       },
-      "answer": { "index": 1 },
+      "answer": {
+        "index": 1
+      },
       "explain_zh": "agree 已经是动词，一套主谓只要一个动词，前面不能再加 am；而且是 agree with you，不是 agree you。"
     },
     {
@@ -19,9 +25,15 @@
       "difficulty": 1,
       "payload": {
         "question": "“我很累。” 下面哪句对？",
-        "options": ["I very tired.", "I am tired.", "I am tired very."]
+        "options": [
+          "I very tired.",
+          "I am tired.",
+          "I am tired very."
+        ]
       },
-      "answer": { "index": 1 },
+      "answer": {
+        "index": 1
+      },
       "explain_zh": "tired 是形容词不是动词，句子缺动词，要补 be 动词 am；very 不是动词补不了这个缺，位置也不能放句尾。"
     },
     {
@@ -30,9 +42,15 @@
       "difficulty": 1,
       "payload": {
         "question": "下面哪个是 be 动词？",
-        "options": ["work", "are", "like"]
+        "options": [
+          "work",
+          "are",
+          "like"
+        ]
       },
-      "answer": { "index": 1 },
+      "answer": {
+        "index": 1
+      },
       "explain_zh": "are 是 be 动词，表示“是、处于某种状态”；work 和 like 是实义动词，表示真正的动作。"
     },
     {
@@ -41,9 +59,15 @@
       "difficulty": 2,
       "payload": {
         "question": "句子 “We ___ at the office now.”（我们现在在办公室）空里该填什么？",
-        "options": ["are", "work", "are work"]
+        "options": [
+          "are",
+          "work",
+          "are work"
+        ]
       },
-      "answer": { "index": 0 },
+      "answer": {
+        "index": 0
+      },
       "explain_zh": "at the office 是地点不是动词，句子缺动词，主语 We 补 be 动词 are；这里没有动作动词，所以不能填 work，也不能 are 和 work 叠用。"
     },
     {
@@ -52,9 +76,15 @@
       "difficulty": 2,
       "payload": {
         "question": "句子 “They ___ hard every day.”（他们每天努力工作）空里该填什么？",
-        "options": ["are", "work", "are work"]
+        "options": [
+          "are",
+          "work",
+          "are work"
+        ]
       },
-      "answer": { "index": 1 },
+      "answer": {
+        "index": 1
+      },
       "explain_zh": "work 是动作动词，句子有了它就够了，主语 They 直接接 work；不需要 be 动词，are work 是叠用两个动词，错。"
     },
     {
@@ -63,9 +93,15 @@
       "difficulty": 2,
       "payload": {
         "question": "“他们很喜欢这首歌。” 下面哪句对？",
-        "options": ["They are like this song.", "They like this song.", "They are like this song very."]
+        "options": [
+          "They are like this song.",
+          "They like this song.",
+          "They are like this song very."
+        ]
       },
-      "answer": { "index": 1 },
+      "answer": {
+        "index": 1
+      },
       "explain_zh": "like 是动作动词，已经够了，前面不能再加 are；are like 是把 be 和实义动词叠用，典型错误。"
     },
     {
@@ -74,9 +110,15 @@
       "difficulty": 2,
       "payload": {
         "question": "句子 “I ___ a bus driver.”（我是公交车司机）空里该填什么？",
-        "options": ["am", "work", "drive"]
+        "options": [
+          "am",
+          "work",
+          "drive"
+        ]
       },
-      "answer": { "index": 0 },
+      "answer": {
+        "index": 0
+      },
       "explain_zh": "a bus driver 是名词说明主语是谁，句子缺动词，主语 I 补 be 动词 am；这里说的是“是什么身份”，不是动作，所以不填 work 或 drive。"
     },
     {
@@ -85,9 +127,15 @@
       "difficulty": 2,
       "payload": {
         "question": "下面哪句是对的？",
-        "options": ["You are want a coffee.", "You want a coffee.", "You want a coffee are."]
+        "options": [
+          "You are want a coffee.",
+          "You want a coffee.",
+          "You want a coffee are."
+        ]
       },
-      "answer": { "index": 1 },
+      "answer": {
+        "index": 1
+      },
       "explain_zh": "want 是动作动词，已经够了，不能再加 are；are want 是两个动词叠用，are 放句尾更是无处安放。"
     },
     {
@@ -96,9 +144,15 @@
       "difficulty": 3,
       "payload": {
         "question": "句子 “My friends ___ very kind.”（我朋友们很友善）空里该填什么？",
-        "options": ["are", "help", "are help"]
+        "options": [
+          "are",
+          "help",
+          "are help"
+        ]
       },
-      "answer": { "index": 0 },
+      "answer": {
+        "index": 0
+      },
       "explain_zh": "kind 是形容词不是动词，句子缺动词，主语 My friends 是复数补 be 动词 are；没有动作动词，所以不填 help，也不能叠用。"
     },
     {
@@ -107,19 +161,30 @@
       "difficulty": 3,
       "payload": {
         "question": "同样意思，哪一句用了 be 动词才对？",
-        "options": ["We agree, and we are happy.", "We are agree, and we happy.", "We agree, and we happy."]
+        "options": [
+          "We agree, and we are happy.",
+          "We are agree, and we happy.",
+          "We agree, and we happy."
+        ]
       },
-      "answer": { "index": 0 },
+      "answer": {
+        "index": 0
+      },
       "explain_zh": "agree 是动词不加 be；happy 是形容词缺动词才补 are。前半用实义动词、后半用 be，各归各位，这句才对。"
     },
-
     {
       "uid": "L03-cloze-01",
       "type": "cloze",
       "difficulty": 1,
       "payload": {
         "text": "I ___ with you.",
-        "blanks": [{ "accept": ["agree"] }]
+        "blanks": [
+          {
+            "accept": [
+              "agree"
+            ]
+          }
+        ]
       },
       "answer": {},
       "explain_zh": "“我同意你”用动作动词 agree，agree with you 是固定搭配；这里是实义动词，前面不加 be。"
@@ -130,7 +195,13 @@
       "difficulty": 1,
       "payload": {
         "text": "I ___ very happy today.",
-        "blanks": [{ "accept": ["am"] }]
+        "blanks": [
+          {
+            "accept": [
+              "am"
+            ]
+          }
+        ]
       },
       "answer": {},
       "explain_zh": "happy 是形容词不是动词，句子缺动词，主语 I 只能补 be 动词 am，不用 is 或 are。"
@@ -141,7 +212,13 @@
       "difficulty": 2,
       "payload": {
         "text": "They ___ hard every day.",
-        "blanks": [{ "accept": ["work"] }]
+        "blanks": [
+          {
+            "accept": [
+              "work"
+            ]
+          }
+        ]
       },
       "answer": {},
       "explain_zh": "work hard（努力工作）是动作，用实义动词 work 就够了，前面不加 be；主语 They 是复数用原形 work。"
@@ -152,7 +229,13 @@
       "difficulty": 2,
       "payload": {
         "text": "We ___ at home now.",
-        "blanks": [{ "accept": ["are"] }]
+        "blanks": [
+          {
+            "accept": [
+              "are"
+            ]
+          }
+        ]
       },
       "answer": {},
       "explain_zh": "at home 是地点不是动词，句子缺动词，主语 We 是复数补 be 动词 are；这里没有动作，所以用 be。"
@@ -163,7 +246,13 @@
       "difficulty": 2,
       "payload": {
         "text": "You ___ this song, and I like it too.（“喜欢”，用 like）",
-        "blanks": [{ "accept": ["like"] }]
+        "blanks": [
+          {
+            "accept": [
+              "like"
+            ]
+          }
+        ]
       },
       "answer": {},
       "explain_zh": "like 是实义动词，直接作谓语，别写 are like；实义动词前不加 be，主语 You 用原形 like。"
@@ -174,7 +263,13 @@
       "difficulty": 2,
       "payload": {
         "text": "I ___ a teacher, and I love my job.",
-        "blanks": [{ "accept": ["am"] }]
+        "blanks": [
+          {
+            "accept": [
+              "am"
+            ]
+          }
+        ]
       },
       "answer": {},
       "explain_zh": "a teacher 是名词说明身份，句子缺动词，主语 I 补 be 动词 am；后半 love my job 才是动作，两半各有各的动词。"
@@ -185,7 +280,13 @@
       "difficulty": 3,
       "payload": {
         "text": "We ___ good friends, and we help each other.",
-        "blanks": [{ "accept": ["are"] }]
+        "blanks": [
+          {
+            "accept": [
+              "are"
+            ]
+          }
+        ]
       },
       "answer": {},
       "explain_zh": "good friends 是名词说明主语是什么，前半缺动词补 be 动词 are；主语 We 是复数用 are，后半 help 才是动作动词。"
@@ -196,66 +297,154 @@
       "difficulty": 3,
       "payload": {
         "text": "You ___ tired, but you still ___ so hard.",
-        "blanks": [{ "accept": ["are"] }, { "accept": ["work"] }]
+        "blanks": [
+          {
+            "accept": [
+              "are"
+            ]
+          },
+          {
+            "accept": [
+              "work"
+            ]
+          }
+        ]
       },
       "answer": {},
       "explain_zh": "第一空 tired 是形容词缺动词，补 be 动词 are；第二空 work so hard 是动作，用实义动词 work，前面不加 be。一句里两半各归各位。"
     },
-
     {
       "uid": "L03-correct-01",
       "type": "correct",
       "difficulty": 1,
-      "payload": { "tokens": ["I", "am", "agree", "with", "you"] },
-      "answer": { "error_index": 1, "delete": true },
+      "payload": {
+        "tokens": [
+          "I",
+          "am",
+          "agree",
+          "with",
+          "you"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "delete": true
+      },
       "explain_zh": "agree 已经是动词，一套主谓只要一个动词，am 是多余的，点中后留空删除，正确是 I agree with you。"
     },
     {
       "uid": "L03-correct-02",
       "type": "correct",
       "difficulty": 2,
-      "payload": { "tokens": ["They", "are", "work", "hard"] },
-      "answer": { "error_index": 1, "delete": true },
+      "payload": {
+        "tokens": [
+          "They",
+          "are",
+          "work",
+          "hard"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "delete": true
+      },
       "explain_zh": "work 是动作动词，are 是多余的，点中后留空删除，正确是 They work hard。"
     },
     {
       "uid": "L03-correct-03",
       "type": "correct",
       "difficulty": 2,
-      "payload": { "tokens": ["We", "are", "like", "this", "movie"] },
-      "answer": { "error_index": 1, "delete": true },
+      "payload": {
+        "tokens": [
+          "We",
+          "are",
+          "like",
+          "this",
+          "movie"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "delete": true
+      },
       "explain_zh": "like 是动作动词，are 是多余的，点中后留空删除，正确是 We like this movie。"
     },
     {
       "uid": "L03-correct-04",
       "type": "correct",
       "difficulty": 2,
-      "payload": { "tokens": ["I", "very", "happy", "today"] },
-      "answer": { "error_index": 1, "corrections": ["am very"] },
+      "payload": {
+        "tokens": [
+          "I",
+          "very",
+          "happy",
+          "today"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "am very"
+        ]
+      },
       "explain_zh": "happy 是形容词不是动词，句子缺动词，主语 I 后面要补 be 动词 am，正确是 I am very happy today。"
     },
     {
       "uid": "L03-correct-05",
       "type": "correct",
       "difficulty": 2,
-      "payload": { "tokens": ["You", "are", "want", "a", "coffee"] },
-      "answer": { "error_index": 1, "delete": true },
+      "payload": {
+        "tokens": [
+          "You",
+          "are",
+          "want",
+          "a",
+          "coffee"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "delete": true
+      },
       "explain_zh": "want 是动作动词，are 是多余的，点中后留空删除，正确是 You want a coffee。"
     },
     {
       "uid": "L03-correct-06",
       "type": "correct",
       "difficulty": 3,
-      "payload": { "tokens": ["We", "at", "home", "now"] },
-      "answer": { "error_index": 1, "corrections": ["are at"] },
+      "payload": {
+        "tokens": [
+          "We",
+          "at",
+          "home",
+          "now"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "are at"
+        ]
+      },
       "explain_zh": "at home 是地点不是动词，句子缺动词，主语 We 后面要补 be 动词 are，正确是 We are at home now。"
     },
     {
       "uid": "L03-correct-07",
       "type": "correct",
       "difficulty": 3,
-      "payload": { "tokens": ["They", "are", "agree", "with", "us"] },
-      "answer": { "error_index": 1, "delete": true },
+      "payload": {
+        "tokens": [
+          "They",
+          "are",
+          "agree",
+          "with",
+          "us"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "delete": true
+      },
       "explain_zh": "agree 已经是动词，are 是多余的，点中后留空删除，正确是 They agree with us。"
     }
   ]

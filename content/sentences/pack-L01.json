@@ -1,12 +1,16 @@
 {
   "pack": "L01",
-  "status": "draft",
+  "status": "approved",
   "sentences": [
     {
       "uid": "L01-s-01",
       "en": "I drink coffee.",
       "zh": "我喝咖啡。",
-      "tokens": ["I", "drink", "coffee"],
+      "tokens": [
+        "I",
+        "drink",
+        "coffee"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -15,7 +19,11 @@
       "uid": "L01-s-02",
       "en": "I read books.",
       "zh": "我读书。",
-      "tokens": ["I", "read", "books"],
+      "tokens": [
+        "I",
+        "read",
+        "books"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -24,7 +32,11 @@
       "uid": "L01-s-03",
       "en": "We eat lunch.",
       "zh": "我们吃午饭。",
-      "tokens": ["We", "eat", "lunch"],
+      "tokens": [
+        "We",
+        "eat",
+        "lunch"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -33,7 +45,12 @@
       "uid": "L01-s-04",
       "en": "He is my friend.",
       "zh": "他是我朋友。",
-      "tokens": ["He", "is", "my", "friend"],
+      "tokens": [
+        "He",
+        "is",
+        "my",
+        "friend"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -42,7 +59,11 @@
       "uid": "L01-s-05",
       "en": "They like music.",
       "zh": "他们喜欢音乐。",
-      "tokens": ["They", "like", "music"],
+      "tokens": [
+        "They",
+        "like",
+        "music"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -51,7 +72,11 @@
       "uid": "L01-s-06",
       "en": "I am happy.",
       "zh": "我很开心。",
-      "tokens": ["I", "am", "happy"],
+      "tokens": [
+        "I",
+        "am",
+        "happy"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -60,7 +85,12 @@
       "uid": "L01-s-07",
       "en": "My phone is new.",
       "zh": "我的手机是新的。",
-      "tokens": ["My", "phone", "is", "new"],
+      "tokens": [
+        "My",
+        "phone",
+        "is",
+        "new"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -69,7 +99,12 @@
       "uid": "L01-s-08",
       "en": "The coffee is hot.",
       "zh": "咖啡很烫。",
-      "tokens": ["The", "coffee", "is", "hot"],
+      "tokens": [
+        "The",
+        "coffee",
+        "is",
+        "hot"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -78,7 +113,11 @@
       "uid": "L01-s-09",
       "en": "They watch TV.",
       "zh": "他们看电视。",
-      "tokens": ["They", "watch", "TV"],
+      "tokens": [
+        "They",
+        "watch",
+        "TV"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -87,7 +126,12 @@
       "uid": "L01-s-10",
       "en": "We are busy today.",
       "zh": "我们今天很忙。",
-      "tokens": ["We", "are", "busy", "today"],
+      "tokens": [
+        "We",
+        "are",
+        "busy",
+        "today"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -96,7 +140,12 @@
       "uid": "L01-s-11",
       "en": "We have a car.",
       "zh": "我们有一辆车。",
-      "tokens": ["We", "have", "a", "car"],
+      "tokens": [
+        "We",
+        "have",
+        "a",
+        "car"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -105,7 +154,12 @@
       "uid": "L01-s-12",
       "en": "I love my job.",
       "zh": "我喜欢我的工作。",
-      "tokens": ["I", "love", "my", "job"],
+      "tokens": [
+        "I",
+        "love",
+        "my",
+        "job"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 1
@@ -114,7 +168,12 @@
       "uid": "L01-s-13",
       "en": "They are at home.",
       "zh": "他们在家。",
-      "tokens": ["They", "are", "at", "home"],
+      "tokens": [
+        "They",
+        "are",
+        "at",
+        "home"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -123,7 +182,13 @@
       "uid": "L01-s-14",
       "en": "My friends drive a bus.",
       "zh": "我的朋友们开公交车。",
-      "tokens": ["My", "friends", "drive", "a", "bus"],
+      "tokens": [
+        "My",
+        "friends",
+        "drive",
+        "a",
+        "bus"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -132,7 +197,13 @@
       "uid": "L01-s-15",
       "en": "I eat bread every morning.",
       "zh": "我每天早上吃面包。",
-      "tokens": ["I", "eat", "bread", "every", "morning"],
+      "tokens": [
+        "I",
+        "eat",
+        "bread",
+        "every",
+        "morning"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -141,7 +212,13 @@
       "uid": "L01-s-16",
       "en": "The shops open at eight.",
       "zh": "这些店八点开门。",
-      "tokens": ["The", "shops", "open", "at", "eight"],
+      "tokens": [
+        "The",
+        "shops",
+        "open",
+        "at",
+        "eight"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -150,7 +227,13 @@
       "uid": "L01-s-17",
       "en": "We watch a movie tonight.",
       "zh": "我们今晚看电影。",
-      "tokens": ["We", "watch", "a", "movie", "tonight"],
+      "tokens": [
+        "We",
+        "watch",
+        "a",
+        "movie",
+        "tonight"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
@@ -159,7 +242,14 @@
       "uid": "L01-s-18",
       "en": "We want a cup of tea.",
       "zh": "我们想要一杯茶。",
-      "tokens": ["We", "want", "a", "cup", "of", "tea"],
+      "tokens": [
+        "We",
+        "want",
+        "a",
+        "cup",
+        "of",
+        "tea"
+      ],
       "alt": [],
       "gp_codes": [],
       "level": 2
