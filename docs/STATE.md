@@ -36,5 +36,7 @@ M0 骨架（进行中，前段完成）— 范围见 docs/PLAN.md §9
 
 - **部署（M1，方案已批 ADR-002）**：`ziaoliu.io/english`，照 /bridgesignal 模式（basePath 构建 + 容器 127.0.0.1:8091 + 宿主 nginx location）；执行条件：`client_max_body_size 25m`、`/english/audio/` 走 nginx alias、whisper 异步任务。改 nginx conf 与部署动手前需 gary 明确放行（红线不变）
 - L02-correct-03 备忘：give you a gift 这一等价修法引擎表达不了（token 移动），已按唯一可表达解上线，遇学习者困惑再议
+- 内容小重复（待 gary 定，不阻塞）：L03 两句与 L01 撞车——"I love my job."（L01-s-12/L03-s-09）、"We want a cup of tea."（L01-s-18/L03-s-07，后者是上轮返工把 She wants→We want 撞上的）。音频 sha1 去重无碍；如要各异，改 L03 pack 那两句（approved 内容，需 gary）
+- TTS 依赖：edge-tts 走 `python3 -m pip install --user edge-tts`（build/content-time，不进 app 镜像）；`data/audio/` 不入 git，可从内容重生成
 - edge-tts 非官方接口失效风险（PLAN §11-3，备胎 Piper）
 - 内容审校节奏：gary 每天 2-3 课，从 M1 前一周开始
