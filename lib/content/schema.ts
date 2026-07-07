@@ -105,6 +105,7 @@ export const altRule = z.object({
   span: z.tuple([z.number().int().min(0), z.number().int().min(1)]),
   options: z.array(z.array(z.string().min(1)).min(1)).min(1),
 });
+export type AltRule = z.infer<typeof altRule>;
 
 export const packSentence = z.object({
   uid: z.string().min(1),

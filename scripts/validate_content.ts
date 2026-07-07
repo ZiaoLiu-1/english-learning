@@ -12,6 +12,7 @@ import {
   loadSentencePack,
 } from "@/lib/content/load";
 import { checkExercise, checkSentence, type ContentIssue } from "@/lib/content/schema";
+import { normalizeText } from "@/lib/tokenize";
 
 const root = process.cwd();
 const errors: string[] = [];
@@ -19,16 +20,6 @@ const warnings: string[] = [];
 
 function pushIssues(issues: ContentIssue[]) {
   for (const i of issues) errors.push(`${i.file} [${i.ref}]: ${i.message}`);
-}
-
-// TODO(M0 task: engines): replace with lib/tokenize.ts normalize once it lands.
-function roughNormalize(s: string): string {
-  return s
-    .replace(/[‘’]/g, "'")
-    .toLowerCase()
-    .replace(/[.,!?;:"“”()—…]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
 }
 
 function cjkCount(s: string): number {
@@ -100,7 +91,7 @@ for (const f of files.packs) {
         errors.push(`${rel} [${s.uid}]: uid must start with "${uidPrefix}"`);
       }
       pushIssues(checkSentence(s, rel));
-      if (roughNormalize(s.tokens.join(" ")) !== roughNormalize(s.en)) {
+      if (normalizeText(s.tokens.join(" ")) !== normalizeText(s.en)) {
         errors.push(`${rel} [${s.uid}]: tokens do not reproduce "en" after normalization`);
       }
     }
