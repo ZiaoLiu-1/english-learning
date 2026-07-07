@@ -1,0 +1,168 @@
+{
+  "pack": "L03",
+  "status": "draft",
+  "sentences": [
+    {
+      "uid": "L03-s-01",
+      "en": "I agree with you.",
+      "zh": "我同意你。",
+      "tokens": ["I", "agree", "with", "you"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L03-s-02",
+      "en": "I am very happy.",
+      "zh": "我很开心。",
+      "tokens": ["I", "am", "very", "happy"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L03-s-03",
+      "en": "We work hard every day.",
+      "zh": "我们每天努力工作。",
+      "tokens": ["We", "work", "hard", "every", "day"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L03-s-04",
+      "en": "They are at home now.",
+      "zh": "他们现在在家。",
+      "tokens": ["They", "are", "at", "home", "now"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L03-s-05",
+      "en": "You like strong coffee.",
+      "zh": "你喜欢浓咖啡。",
+      "tokens": ["You", "like", "strong", "coffee"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L03-s-06",
+      "en": "I am a teacher.",
+      "zh": "我是老师。",
+      "tokens": ["I", "am", "a", "teacher"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L03-s-07",
+      "en": "We want a cup of tea.",
+      "zh": "我们想要一杯茶。",
+      "tokens": ["We", "want", "a", "cup", "of", "tea"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L03-s-08",
+      "en": "They are very tired today.",
+      "zh": "他们今天很累。",
+      "tokens": ["They", "are", "very", "tired", "today"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L03-s-09",
+      "en": "I love my job.",
+      "zh": "我喜欢我的工作。",
+      "tokens": ["I", "love", "my", "job"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L03-s-10",
+      "en": "You are my best friend.",
+      "zh": "你是我最好的朋友。",
+      "tokens": ["You", "are", "my", "best", "friend"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L03-s-11",
+      "en": "We agree with them.",
+      "zh": "我们同意他们。",
+      "tokens": ["We", "agree", "with", "them"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L03-s-12",
+      "en": "I am at work now.",
+      "zh": "我现在在上班。",
+      "tokens": ["I", "am", "at", "work", "now"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L03-s-13",
+      "en": "They eat lunch together.",
+      "zh": "他们一起吃午饭。",
+      "tokens": ["They", "eat", "lunch", "together"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L03-s-14",
+      "en": "You are very kind to me.",
+      "zh": "你对我很好。",
+      "tokens": ["You", "are", "very", "kind", "to", "me"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L03-s-15",
+      "en": "We are good friends, and we help each other.",
+      "zh": "我们是好朋友，还互相帮助。",
+      "tokens": ["We", "are", "good", "friends", "and", "we", "help", "each", "other"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L03-s-16",
+      "en": "I am tired, but I still want to talk.",
+      "zh": "我累了，但还想聊聊。",
+      "tokens": ["I", "am", "tired", "but", "I", "still", "want", "to", "talk"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L03-s-17",
+      "en": "They like this song, and they play it every day.",
+      "zh": "他们喜欢这首歌，每天都放。",
+      "tokens": ["They", "like", "this", "song", "and", "they", "play", "it", "every", "day"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L03-s-18",
+      "en": "You are busy, and you work late.",
+      "zh": "你很忙，还加班。",
+      "tokens": ["You", "are", "busy", "and", "you", "work", "late"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    }
+  ]
+}

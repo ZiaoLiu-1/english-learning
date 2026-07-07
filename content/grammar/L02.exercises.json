@@ -1,0 +1,270 @@
+{
+  "lesson": "L02",
+  "status": "draft",
+  "exercises": [
+    {
+      "uid": "L02-mcq-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "句子 “We work together.”（我们一起工作）属于哪种句型？",
+        "options": ["主+谓（SV）", "主+谓+宾（SVO）", "主+系+表（SVC）"]
+      },
+      "answer": { "index": 0 },
+      "explain_zh": "work 后面没有接对象，只有主语 We 和动词 work，是最简单的“主+谓”句型；没有宾语也没有表语。"
+    },
+    {
+      "uid": "L02-mcq-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "句子 “I like this song.” 属于哪种句型？",
+        "options": ["主+谓（SV）", "主+谓+宾（SVO）", "主+系+表（SVC）"]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "like 是动作，后面接了对象 this song 作宾语，是“主+谓+宾”；SV 没有宾语，SVC 的动词是 be 这类系动词。"
+    },
+    {
+      "uid": "L02-mcq-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "句子 “You are very kind.” 属于哪种句型？",
+        "options": ["主+谓+宾（SVO）", "主+系+表（SVC）", "主+谓（SV）"]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "are 是系动词 be，后面 kind 是形容词，说明主语 You 什么样，是“主+系+表”；kind 不是动作对象，所以不是 SVO。"
+    },
+    {
+      "uid": "L02-mcq-04",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "“我给你一杯咖啡。” 下面哪句词序对？",
+        "options": ["I give a coffee you.", "I give you a coffee.", "I give you coffee a."]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "双宾语顺序是“给谁 + 给什么”：先 you 再 a coffee；把 a coffee 提前或把 a 放句尾都错。"
+    },
+    {
+      "uid": "L02-mcq-05",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "句子 “They keep the room clean.”（他们把房间保持干净）里，clean 的作用是？",
+        "options": ["宾语（动作的对象）", "宾语补语（说明 the room 什么样）", "主语"]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "宾语是 the room，clean 补充说明这个宾语的状态，叫宾语补语，这是“主+谓+宾+宾补”句型。"
+    },
+    {
+      "uid": "L02-mcq-06",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "下面哪句是完整的“主+谓+宾”句子？",
+        "options": ["We coffee every day.", "We drink coffee every day.", "We very coffee every day."]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "SVO 必须有动词，drink 是谓语动词，coffee 是宾语；另外两句都缺动词，句子立不起来。"
+    },
+    {
+      "uid": "L02-mcq-07",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "“You look tired.”（你看起来累了）里，动词 look 后面接的 tired 是什么成分？",
+        "options": ["宾语", "表语（说明主语的状态）", "副词"]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "look 在这里是系动词，tired 说明主语 You 的状态，是表语，整句是 SVC；不是 You 看的对象，所以不是宾语。"
+    },
+    {
+      "uid": "L02-mcq-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "中文“我很累，想睡觉。”翻成英文，最好的处理是？",
+        "options": [
+          "I am tired want to sleep.",
+          "I am tired, want to sleep.",
+          "I am tired. I want to sleep."
+        ]
+      },
+      "answer": { "index": 2 },
+      "explain_zh": "英文一套主谓只说一件事，两件事要拆成两句，各有主语和动词；挤在一句里或只用逗号连都不行。"
+    },
+    {
+      "uid": "L02-mcq-09",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "句子 “We call our dog Lucky.”（我们叫我们的狗 Lucky）属于哪种句型？",
+        "options": [
+          "主+谓+间宾+直宾（SVOO）",
+          "主+谓+宾+宾补（SVOC）",
+          "主+谓+宾（SVO）"
+        ]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "宾语是 our dog，Lucky 补充说明这个宾语叫什么，是宾语补语，属 SVOC；SVOO 是“给谁什么”两个都是名词对象。"
+    },
+    {
+      "uid": "L02-mcq-10",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "下面哪句是“主+谓+间宾+直宾”（SVOO，给某人某物）？",
+        "options": ["I tell you the truth.", "I am your friend.", "I feel happy today."]
+      },
+      "answer": { "index": 0 },
+      "explain_zh": "tell 后面先接“告诉谁”you，再接“告诉的内容”the truth，两个对象，是 SVOO；另外两句是主系表 SVC。"
+    },
+
+    {
+      "uid": "L02-cloze-01",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "I ___ you a question.",
+        "blanks": [{ "accept": ["ask"] }]
+      },
+      "answer": {},
+      "explain_zh": "“问某人一个问题”是 ask sb a question，这是给某人某物的双宾结构；主语 I 用动词原形 ask。"
+    },
+    {
+      "uid": "L02-cloze-02",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "You ___ very tired today.",
+        "blanks": [{ "accept": ["look"] }]
+      },
+      "answer": {},
+      "explain_zh": "tired 是形容词作表语，前面缺系动词，look（看起来）正好把主语 You 和 tired 连起来；主语 you 用原形 look。"
+    },
+    {
+      "uid": "L02-cloze-03",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "We keep the door ___ in summer.",
+        "blanks": [{ "accept": ["open"] }]
+      },
+      "answer": {},
+      "explain_zh": "keep 后面是宾语 the door，再加宾语补语说明门的状态，夏天让门保持“开着”是 open，构成 SVOC。"
+    },
+    {
+      "uid": "L02-cloze-04",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "My friends ___ me a nickname.",
+        "blanks": [{ "accept": ["give"] }]
+      },
+      "answer": {},
+      "explain_zh": "“给某人一个外号”是 give sb sth 的双宾结构；主语 My friends 是复数，动词用原形 give。"
+    },
+    {
+      "uid": "L02-cloze-05",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "I am tired. I ___ to sleep now.",
+        "blanks": [{ "accept": ["want"] }]
+      },
+      "answer": {},
+      "explain_zh": "两件事拆成两句，第二句要有自己的动词；“想做某事”是 want to do，主语 I 用原形 want。"
+    },
+    {
+      "uid": "L02-cloze-06",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "We ___ him Uncle Wang.",
+        "blanks": [{ "accept": ["call"] }]
+      },
+      "answer": {},
+      "explain_zh": "“把某人叫作……”是 call sb sth，him 是宾语，Uncle Wang 是宾语补语，构成 SVOC；主语 We 用原形 call。"
+    },
+    {
+      "uid": "L02-cloze-07",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "You ___ me a message every morning, and I always reply.",
+        "blanks": [{ "accept": ["send"] }]
+      },
+      "answer": {},
+      "explain_zh": "“给某人发消息”是 send sb sth 的双宾结构，后半句 reply 说明前面在收发消息；主语 You 用原形 send。"
+    },
+    {
+      "uid": "L02-cloze-08",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "They ___ good friends, and they help each other a lot.",
+        "blanks": [{ "accept": ["are"] }]
+      },
+      "answer": {},
+      "explain_zh": "good friends 是表语说明主语是什么，缺系动词；主语 They 是复数，be 动词用 are，构成主系表。"
+    },
+
+    {
+      "uid": "L02-correct-01",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": { "tokens": ["We", "speak", "English", "very", "good"] },
+      "answer": { "error_index": 4, "corrections": ["well"] },
+      "explain_zh": "形容动作 speak 做得怎么样要用副词，good 是形容词，应改成副词 well。"
+    },
+    {
+      "uid": "L02-correct-02",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": { "tokens": ["We", "is", "good", "friends"] },
+      "answer": { "error_index": 1, "corrections": ["are"] },
+      "explain_zh": "主语 We 是复数，be 动词要用 are，不是 is；这是“主+系+表”，good friends 是表语。"
+    },
+    {
+      "uid": "L02-correct-03",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": { "tokens": ["I", "give", "a", "gift", "you"] },
+      "answer": { "error_index": 4, "corrections": ["to you"] },
+      "explain_zh": "“给你礼物”若把 a gift 放前面，人要用 to 引出：give a gift to you；直接把 you 甩到句尾是中式语序。"
+    },
+    {
+      "uid": "L02-correct-04",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": { "tokens": ["They", "very", "happy", "today"] },
+      "answer": { "error_index": 1, "corrections": ["are very"] },
+      "explain_zh": "happy 是形容词作表语，主语和表语中间缺系动词；主语 They 是复数，要补 be 动词 are，构成 They are very happy。"
+    },
+    {
+      "uid": "L02-correct-05",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": { "tokens": ["We", "very", "like", "our", "new", "home"] },
+      "answer": { "error_index": 1, "corrections": ["really"] },
+      "explain_zh": "very 不能直接修饰动词 like，要用副词 really；very 只能修饰形容词或副词。"
+    },
+    {
+      "uid": "L02-correct-06",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": { "tokens": ["My", "sister", "a", "nurse"] },
+      "answer": { "error_index": 2, "corrections": ["is a"] },
+      "explain_zh": "这是主系表句：主语 My sister 和表语 a nurse 中间缺系动词，主语是单数要补 be 动词 is，正确是 My sister is a nurse。"
+    },
+    {
+      "uid": "L02-correct-07",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": { "tokens": ["My", "boss", "gives", "a", "raise", "me"] },
+      "answer": { "error_index": 5, "corrections": ["to me"] },
+      "explain_zh": "“给我加薪”的双宾语序是先“给谁”再“给什么”：gives me a raise；若把 a raise 放前面，人就要用 to 引出，正确是 My boss gives a raise to me，不能把 me 直接甩到句尾。"
+    }
+  ]
+}

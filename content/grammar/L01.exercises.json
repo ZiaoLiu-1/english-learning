@@ -1,0 +1,262 @@
+{
+  "lesson": "L01",
+  "status": "draft",
+  "exercises": [
+    {
+      "uid": "L01-mcq-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "下面哪个词是动词（表示动作）？",
+        "options": ["coffee", "eat", "happy", "here"]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "eat（吃）是动作，属于动词；coffee 是名词，happy 是形容词，here 是副词。"
+    },
+    {
+      "uid": "L01-mcq-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "下面哪个词是名词（表示人或东西）？",
+        "options": ["run", "phone", "busy", "well"]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "phone（手机）是东西，属于名词；run 是动词，busy 是形容词，well 是副词。"
+    },
+    {
+      "uid": "L01-mcq-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "下面哪个词是形容词（形容东西什么样）？",
+        "options": ["water", "tired", "sleep", "quickly"]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "tired（累的）形容人的状态，是形容词；water 是名词，sleep 是动词，quickly 是副词。"
+    },
+    {
+      "uid": "L01-mcq-04",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "句子 “She likes music.” 里，主语是哪个词？",
+        "options": ["She", "likes", "music"]
+      },
+      "answer": { "index": 0 },
+      "explain_zh": "主语是动作的发出者，在动词前面，这里是 She；likes 是动词，music 是宾语。"
+    },
+    {
+      "uid": "L01-mcq-05",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "句子 “I drink coffee.” 里，哪个词是动词？",
+        "options": ["I", "drink", "coffee"]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "drink（喝）是动作，是动词；I 是主语，coffee 是宾语。"
+    },
+    {
+      "uid": "L01-mcq-06",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "句子 “We watch a movie.” 里，宾语（动作作用的对象）是哪部分？",
+        "options": ["We", "watch", "a movie"]
+      },
+      "answer": { "index": 2 },
+      "explain_zh": "宾语在动词后面，是动作作用的对象，这里是 a movie；We 是主语，watch 是动词。"
+    },
+    {
+      "uid": "L01-mcq-07",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "下面哪个英文句子的词序是对的（主语在前、动词在后、宾语最后）？",
+        "options": ["Tea I like.", "I like tea.", "Like I tea."]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "英文靠位置定成分，正确顺序是主语 I + 动词 like + 宾语 tea；另外两个把宾语或动词提前了。"
+    },
+    {
+      "uid": "L01-mcq-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "一句完整的英文句子里，下面哪一样是必须有的？",
+        "options": ["形容词", "动词", "副词"]
+      },
+      "answer": { "index": 1 },
+      "explain_zh": "英文每句话必须有一个动词，这是铁律；形容词和副词都可有可无。"
+    },
+    {
+      "uid": "L01-mcq-09",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "句子 “My friend reads books.” 里，哪个词是形容词性质、说明 friend 是“谁的”？",
+        "options": ["My", "reads", "books"]
+      },
+      "answer": { "index": 0 },
+      "explain_zh": "My（我的）放在名词 friend 前，起形容作用说明是谁的；reads 是动词，books 是宾语。"
+    },
+    {
+      "uid": "L01-mcq-10",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "句子 “They work hard.” 里，hard 形容的是动作 work（怎么做），它是什么词？",
+        "options": ["名词", "动词", "副词"]
+      },
+      "answer": { "index": 2 },
+      "explain_zh": "hard 在这里形容动词 work 做得怎么样，形容动作的词是副词。"
+    },
+
+    {
+      "uid": "L01-cloze-01",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "I ___ hungry now.",
+        "blanks": [{ "accept": ["am"] }]
+      },
+      "answer": {},
+      "explain_zh": "hungry 是形容词，句子缺动词，主语 I 要配 be 动词 am；I 只能用 am，不能用 is 或 are。"
+    },
+    {
+      "uid": "L01-cloze-02",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "My friend ___ very kind.",
+        "blanks": [{ "accept": ["is"] }]
+      },
+      "answer": {},
+      "explain_zh": "kind 是形容词，句子缺动词，主语 My friend 是单数第三人称，be 动词只能用 is。"
+    },
+    {
+      "uid": "L01-cloze-03",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "He ___ tired after work.",
+        "blanks": [{ "accept": ["is"] }]
+      },
+      "answer": {},
+      "explain_zh": "tired 是形容词，句子缺动词，主语 He 要配 be 动词 is；He 是第三人称单数，只能用 is。"
+    },
+    {
+      "uid": "L01-cloze-04",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "Breakfast is at seven, and ___ is at noon.",
+        "blanks": [{ "accept": ["lunch"] }]
+      },
+      "answer": {},
+      "explain_zh": "早饭 breakfast 在七点，与之对应、中午 at noon 吃的一餐是 lunch（午饭）。"
+    },
+    {
+      "uid": "L01-cloze-05",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "His new car ___ red.",
+        "blanks": [{ "accept": ["is"] }]
+      },
+      "answer": {},
+      "explain_zh": "red 是形容词，句子缺动词，主语 His new car 是单数，be 动词用 is。"
+    },
+    {
+      "uid": "L01-cloze-06",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "They ___ good friends.",
+        "blanks": [{ "accept": ["are"] }]
+      },
+      "answer": {},
+      "explain_zh": "friends 前缺动词，主语 They 是复数，be 动词要用 are；They 不能用 is 或 am。"
+    },
+    {
+      "uid": "L01-cloze-07",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "I ___ a teacher, and they ___ students.",
+        "blanks": [{ "accept": ["am"] }, { "accept": ["are"] }]
+      },
+      "answer": {},
+      "explain_zh": "两空都缺 be 动词：主语 I 用 am，主语 they 是复数用 are；这是英文每句必须有动词的体现。"
+    },
+    {
+      "uid": "L01-cloze-08",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "This coffee ___ hot, but my tea ___ cold.",
+        "blanks": [{ "accept": ["is"] }, { "accept": ["is"] }]
+      },
+      "answer": {},
+      "explain_zh": "hot 和 cold 都是形容词，两句都缺动词；主语 This coffee 和 my tea 都是单数，be 动词都用 is。"
+    },
+
+    {
+      "uid": "L01-correct-01",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": { "tokens": ["I", "very", "happy"] },
+      "answer": { "error_index": 1, "corrections": ["am"] },
+      "explain_zh": "happy 是形容词不是动词，句子缺动词，主语 I 后面要用 be 动词 am，而不是 very。"
+    },
+    {
+      "uid": "L01-correct-02",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": { "tokens": ["He", "a", "good", "teacher"] },
+      "answer": { "error_index": 1, "corrections": ["is a"] },
+      "explain_zh": "he 和 teacher 之间缺动词把它们连起来，英文每句必须有动词，主语 He 要补 be 动词 is，正确是 He is a good teacher。"
+    },
+    {
+      "uid": "L01-correct-03",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": { "tokens": ["They", "at", "home", "now"] },
+      "answer": { "error_index": 1, "corrections": ["are at"] },
+      "explain_zh": "句子缺了 be 动词，主语 They 后面要补 are，正确是 They are at home now；at home 是地点，本身不是动词。"
+    },
+    {
+      "uid": "L01-correct-04",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": { "tokens": ["I", "very", "like", "this", "song"] },
+      "answer": { "error_index": 1, "corrections": ["really"] },
+      "explain_zh": "very 不能直接修饰动词 like，要用副词 really；very 只能修饰形容词或副词。"
+    },
+    {
+      "uid": "L01-correct-05",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": { "tokens": ["My", "friend", "very", "busy"] },
+      "answer": { "error_index": 2, "corrections": ["is"] },
+      "explain_zh": "busy 是形容词，句子缺动词，主语后面要补 be 动词 is，正确是 My friend is very busy。"
+    },
+    {
+      "uid": "L01-correct-06",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": { "tokens": ["We", "very", "tired", "today"] },
+      "answer": { "error_index": 1, "corrections": ["are"] },
+      "explain_zh": "tired 是形容词，句子缺动词，主语 We 后面要补 be 动词 are，正确是 We are very tired today。"
+    },
+    {
+      "uid": "L01-correct-07",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": { "tokens": ["He", "quick", "eats", "his", "lunch"] },
+      "answer": { "error_index": 1, "corrections": ["quickly"] },
+      "explain_zh": "形容动作 eats 怎么做要用副词，quick 是形容词，应改成副词 quickly。"
+    }
+  ]
+}
