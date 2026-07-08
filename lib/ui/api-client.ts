@@ -17,6 +17,12 @@ export class ApiRequestError extends Error {
   }
 }
 
+// fetch() is not basePath-aware (only <Link>/router are). Under the /english
+// deployment a bare "/api/..." would resolve to the origin root and 404, so
+// every call site must go through the baked basePath.
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const apiUrl = (path: string) => `${BASE_PATH}${path}`;
+
 async function postJson<T>(url: string, body: unknown): Promise<T> {
   let res: Response;
   try {
@@ -56,11 +62,11 @@ export interface LoginResult {
 }
 
 export function login(name: string, password: string): Promise<LoginResult> {
-  return postJson<LoginResult>("/api/auth/login", { name, password });
+  return postJson<LoginResult>(apiUrl("/api/auth/login"), { name, password });
 }
 
 export function logout(): Promise<{ ok: true }> {
-  return postJson<{ ok: true }>("/api/auth/logout", {});
+  return postJson<{ ok: true }>(apiUrl("/api/auth/logout"), {});
 }
 
 export type SubmitResponse =
@@ -90,7 +96,7 @@ export function submitExercise(
   response: unknown,
   opts?: { usedHint?: boolean; msUsed?: number },
 ): Promise<SubmitExerciseResult> {
-  return postJson<SubmitExerciseResult>("/api/exercises/submit", {
+  return postJson<SubmitExerciseResult>(apiUrl("/api/exercises/submit"), {
     exercise_id: exerciseId,
     response,
     used_hint: opts?.usedHint ?? false,
