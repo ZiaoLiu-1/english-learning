@@ -38,12 +38,20 @@
 
 - **语法目录 + 导航壳**：登录落 /grammar 目录，42 课按 4 阶段分组、L01-L03 可学（带进度）、L04-L42「即将推出」。lib/curriculum.ts（42 课大纲）+ lib/progress.ts
 - **SRS 复习闭环（CORE-3 + GRAM-4）**：lib/srs.ts（SM-2，测试先行 100% 分支）；答题即进/推 SRS 卡（lib/review.ts）；/review 复习队列（复用 ExerciseRunner）、/review/mistakes 错题本（按语法点聚合）、顶栏"复习"入口 + 到期角标；GET /api/srs/queue
+- **内容术语系统修**（gary 反馈"术语没解释"）：content_draft.md 加"术语零假设"硬规则（术语首现必解释、前后一致）+ 讲解字数放宽 ≤800 + seed 容错（md draft 时跳过其 approved exercises）。L01/L02 讲解补全术语定义（drafter→auditor→gary 终审→上线）。L03 是范本未动
 
 ## 下一步（≤3 条，按优先级）
 
 1. M1 功能续（PLAN §9）：诊断测试 CORE-1、每日计划 CORE-2（lib/plan.ts 主会话亲自测试先行，靠 SRS 到期数）、听写引擎 LIST-2（lib/diff.ts 主会话亲自 + VOA 素材管道）、造句+文件模式批改 SPK-1/2、阶段 1 语法补到 L14 + 音标 P01-P08
 2. L04-L14 起草排队（内容领先一周即可）
 3. 部署运维小项：音频接 UI 后加 `/english/audio/` nginx alias（ADR-002 条件②）；配 https remote+token 让服务器能 git pull
+
+## 内容待办 / gary 未定（术语修订遗留）
+
+- L02 修订时删了"补语"字样、用已解释的"成分"收口（gary 批准现状；若要早引入"补语"再说）
+- "谓语通常就是动词"是刻意简化（gary 接受；讲复杂谓语时再扩展）
+- L03「实义动词=表示真正的动作」配例 like/want（心理动词非动作），措辞略松——auditor 提示的可选修，动它要重开 L03 draft，gary 暂未要求
+- L04-L42 起草时务必贯彻"术语零假设"规则（content_draft.md）
 
 ## M1 已知小项（择机）
 
