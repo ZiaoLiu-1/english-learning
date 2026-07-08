@@ -39,12 +39,19 @@
 - **语法目录 + 导航壳**：登录落 /grammar 目录，42 课按 4 阶段分组、L01-L03 可学（带进度）、L04-L42「即将推出」。lib/curriculum.ts（42 课大纲）+ lib/progress.ts
 - **SRS 复习闭环（CORE-3 + GRAM-4）**：lib/srs.ts（SM-2，测试先行 100% 分支）；答题即进/推 SRS 卡（lib/review.ts）；/review 复习队列（复用 ExerciseRunner）、/review/mistakes 错题本（按语法点聚合）、顶栏"复习"入口 + 到期角标；GET /api/srs/queue
 - **内容术语系统修**（gary 反馈"术语没解释"）：content_draft.md 加"术语零假设"硬规则（术语首现必解释、前后一致）+ 讲解字数放宽 ≤800 + seed 容错（md draft 时跳过其 approved exercises）。L01/L02 讲解补全术语定义（drafter→auditor→gary 终审→上线）。L03 是范本未动
+- **每日任务首页（CORE-2）**：lib/plan.ts（计划规则引擎，测试先行 100% 分支）+ lib/daily.ts（生成/冻结/持久化 daily_plans、完成打卡、streak、选下一课）；/today 首页（问候 + 🔥streak + 任务卡 + 打卡）；登录落地改 /today、顶栏加"今日"；GET /api/plan/today、POST /api/plan/complete-item。当前任务类型只有 review+grammar（音标/听写/造句内容到位后自动填充计划）
 
 ## 下一步（≤3 条，按优先级）
 
-1. M1 功能续（PLAN §9）：诊断测试 CORE-1、每日计划 CORE-2（lib/plan.ts 主会话亲自测试先行，靠 SRS 到期数）、听写引擎 LIST-2（lib/diff.ts 主会话亲自 + VOA 素材管道）、造句+文件模式批改 SPK-1/2、阶段 1 语法补到 L14 + 音标 P01-P08
-2. L04-L14 起草排队（内容领先一周即可）
+1. M1 功能续（PLAN §9，CORE-2 已完成）：内容补到 L14 + 音标 P01-P08（让计划/目录有料）、听写引擎 LIST-2（lib/diff.ts 主会话亲自 + VOA 素材管道）、造句+文件模式批改 SPK-1/2、诊断测试 CORE-1
+2. L04-L14 起草排队（内容领先一周即可；起草务必贯彻"术语零假设"规则）
 3. 部署运维小项：音频接 UI 后加 `/english/audio/` nginx alias（ADR-002 条件②）；配 https remote+token 让服务器能 git pull
+
+## 计划引擎待办（内容到位后接线）
+
+- lib/plan.ts 已留 phonics/dictation/sentence 任务类型扩展位，但只在 review+grammar 出规则；对应内容/功能上线时补规则（音标 W1-3 每天必排、听写降级、造句 3 句等，见 PLAN §5G）
+- 完成打卡目前手动点"完成"；未来可自动判定（当天做过复习/学完该课即自动打勾）
+- weekNo 暂固定 1（TODO：诊断设起始日后按真实周数算）
 
 ## 内容待办 / gary 未定（术语修订遗留）
 
