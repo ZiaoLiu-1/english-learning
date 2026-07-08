@@ -40,13 +40,19 @@
 - **SRS 复习闭环（CORE-3 + GRAM-4）**：lib/srs.ts（SM-2，测试先行 100% 分支）；答题即进/推 SRS 卡（lib/review.ts）；/review 复习队列（复用 ExerciseRunner）、/review/mistakes 错题本（按语法点聚合）、顶栏"复习"入口 + 到期角标；GET /api/srs/queue
 - **内容术语系统修**（gary 反馈"术语没解释"）：content_draft.md 加"术语零假设"硬规则（术语首现必解释、前后一致）+ 讲解字数放宽 ≤800 + seed 容错（md draft 时跳过其 approved exercises）。L01/L02 讲解补全术语定义（drafter→auditor→gary 终审→上线）。L03 是范本未动
 - **每日任务首页（CORE-2）**：lib/plan.ts（计划规则引擎，测试先行 100% 分支）+ lib/daily.ts（生成/冻结/持久化 daily_plans、完成打卡、streak、选下一课）；/today 首页（问候 + 🔥streak + 任务卡 + 打卡）；登录落地改 /today、顶栏加"今日"；GET /api/plan/today、POST /api/plan/complete-item。当前任务类型只有 review+grammar（音标/听写/造句内容到位后自动填充计划）
-- **内容 L04-L07 上线**（阶段1 前 7 课齐）：一般现在时/三单、单复数可数性、冠词、人称/物主代词。drafter×4→auditor 批量质检（100 题逐题核对，全通过，L07 一处"介词"未定义已修）→gary 终审→approved→部署。DB 现 7 语法点/175 题/126 句，目录+每日计划已扩到 7 课
+- **内容 L04-L11 上线**（阶段1 十一课齐，14 课差 L12-L14）：现在时/三单、单复数、冠词、代词（L04-L07）；过去时、进行时、否定、疑问（L08-L11）。均走 drafter→auditor 批量质检（逐题核对，各批只 1 处术语首现未定义需修：L07 介词、L08 原形 + L11 倒装，已修）→gary 终审→approved→部署。**DB 现 11 语法点/275 题/198 句**，目录+每日计划覆盖 11 课
 
 ## 下一步（≤3 条，按优先级）
 
-1. 内容续：L08-L14 起草（阶段1 剩余：过去时/进行时/否定/疑问/there be/介词/并列连词），补齐阶段1 十四课。走 drafter→auditor→gary 流水线
+1. 内容收尾：L12-L14（there be 句型 / 时间地点介词 in-on-at / 并列连词 and-but-or-so-because）——补满阶段1 十四课。走 drafter→auditor→gary。注意 L14 起草时 and/but 已在前课当高频词用过，勿当"全新"
 2. M1 其余功能（PLAN §9）：听写引擎 LIST-2（lib/diff.ts 主会话亲自 + VOA 素材管道）、造句+文件模式批改 SPK-1/2、诊断测试 CORE-1
 3. 部署运维小项：音频接 UI 后加 `/english/audio/` nginx alias（ADR-002 条件②）；配 https remote+token 让服务器能 git pull
+
+## L08-L11 终审遗留（gary 已批，auditor 判可接受）
+
+- 改错"插入型伪装成替换型"（L10-correct-02 *She not at home*→标 not 改 is not、L11-correct-01 *Why you say*→标 you 改 do you）：判分唯一正确，但被标词本身没错、真错是漏词；引擎无"插入"操作类型。可接受，未来若加插入型判定可优化这类题
+- 梯度小瑕：L10/L11 pack 最高 level-2（否定/疑问句偏短），L11 改错难度顺序非单调。低优先
+- L11 who 当普通疑问词，规则对"谁做主语"问句（Who likes coffee?）会失灵——本课已规避，引入主语疑问句的后续课需补例外
 
 ## L04-L07 终审遗留（gary 已批现状，auditor 判可接受，记录备查）
 
