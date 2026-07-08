@@ -27,11 +27,23 @@
 
 （无）
 
+## 部署 —— 已上线 ✅ https://ziaoliu.io/english（2026-07-07，段一+段二完成）
+
+- 段二 nginx：`ziaoliu.io.conf` 443 块已加 `location ^~ /english` 反代 127.0.0.1:8091（含 `client_max_body_size 25m`），照 /bridgesignal 先例。备份在 `/home/ubuntu/nginx-backups/ziaoliu.io.conf.bak-20260707-english`。`nginx -t` 过、reload 完
+- 公网实测：/english/login 200、登录 learner/xiao520QIAN. 200、grammar/L01 200、答题提交判定+落库；现有站点 /amd、根站全 200 不受影响
+- **账号**：learner 密码 `xiao520QIAN.`（gary 给的，含末尾句点）；admin(gary) 仍是临时随机密码（要用告诉我改）
+- 更新部署方法（无 CI，源码非 git checkout）：本地 `git archive HEAD | ssh ... tar -x -C ~/english-platform` → 服务器 `docker compose -f docker/compose.yml build && up -d`（改密码/重置数据才需 `down -v`）
+
 ## 下一步（≤3 条，按优先级）
 
-1. **部署段二（改 nginx，等 gary 放行）**：段一已完成——app 在服务器 `127.0.0.1:8091` 跑通（build+run+curl，见下）。段二只差往 `ziaoliu.io.conf` 的 443 server 块加一段 location（见下方"段二待批 nginx 块"），改前备份 + `nginx -t`，需 gary 明确放行。**并在公开前把 docker/.env 的临时密码换成真实密码**（现为 temp-learner-pw / temp-admin-*，仅内网可达时用）
-2. M1 功能（PLAN §9）：诊断测试 CORE-1、每日计划 CORE-2、SRS CORE-3（lib/srs.ts 主会话亲自测试先行）、错题本 GRAM-4、听写引擎 LIST-2（lib/diff.ts 主会话亲自）、造句+文件模式批改 SPK-1/2、阶段 1 语法补到 L14 + 音标 P01-P08
-3. L04-L14 起草排队（内容领先一周即可）
+1. M1 功能（PLAN §9）：诊断测试 CORE-1、每日计划 CORE-2、SRS CORE-3（lib/srs.ts 主会话亲自测试先行）、错题本 GRAM-4、听写引擎 LIST-2（lib/diff.ts 主会话亲自）、造句+文件模式批改 SPK-1/2、阶段 1 语法补到 L14 + 音标 P01-P08
+2. L04-L14 起草排队（内容领先一周即可）
+3. 部署运维小项：把音频接进 UI 后加 `/english/audio/` 的 nginx alias（ADR-002 条件②）；配 https remote+token 让服务器能 git pull（免手动 archive）
+
+## 待 gary（部署相关）
+
+- **nginx 历史遗留**（我没动，你的文件）：`sites-enabled/` 里有 `ziaoliu.io.conf.bak-20260615`，因 `include sites-enabled/*` 被 nginx 加载，导致 `nginx -t` 报 conflicting server name 警告（不影响服务）。建议把它挪出 sites-enabled
+- admin 密码仍为临时值；要用 admin 账号告诉我设成什么
 
 ## 部署段一 —— 已完成（2026-07-07，不碰 nginx）
 
