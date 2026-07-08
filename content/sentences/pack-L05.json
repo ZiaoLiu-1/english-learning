@@ -1,0 +1,276 @@
+{
+  "pack": "L05",
+  "status": "draft",
+  "sentences": [
+    {
+      "uid": "L05-s-01",
+      "en": "I have two phones.",
+      "zh": "我有两部手机。",
+      "tokens": [
+        "I",
+        "have",
+        "two",
+        "phones"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L05-s-02",
+      "en": "She wants water.",
+      "zh": "她想喝水。",
+      "tokens": [
+        "She",
+        "wants",
+        "water"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L05-s-03",
+      "en": "They like apples.",
+      "zh": "他们喜欢苹果。",
+      "tokens": [
+        "They",
+        "like",
+        "apples"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L05-s-04",
+      "en": "He needs information.",
+      "zh": "他需要一些信息。",
+      "tokens": [
+        "He",
+        "needs",
+        "information"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L05-s-05",
+      "en": "My friends drink coffee.",
+      "zh": "我朋友们喝咖啡。",
+      "tokens": [
+        "My",
+        "friends",
+        "drink",
+        "coffee"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L05-s-06",
+      "en": "I eat two eggs every morning.",
+      "zh": "我每天早上吃两个鸡蛋。",
+      "tokens": [
+        "I",
+        "eat",
+        "two",
+        "eggs",
+        "every",
+        "morning"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L05-s-07",
+      "en": "She gives good advice.",
+      "zh": "她会给出好建议。",
+      "tokens": [
+        "She",
+        "gives",
+        "good",
+        "advice"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L05-s-08",
+      "en": "We have three cats.",
+      "zh": "我们养了三只猫。",
+      "tokens": [
+        "We",
+        "have",
+        "three",
+        "cats"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L05-s-09",
+      "en": "I buy two boxes.",
+      "zh": "我买两个盒子。",
+      "tokens": [
+        "I",
+        "buy",
+        "two",
+        "boxes"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L05-s-10",
+      "en": "Children like candy.",
+      "zh": "小孩子喜欢糖。",
+      "tokens": [
+        "Children",
+        "like",
+        "candy"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L05-s-11",
+      "en": "My feet hurt today.",
+      "zh": "我今天脚疼。",
+      "tokens": [
+        "My",
+        "feet",
+        "hurt",
+        "today"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L05-s-12",
+      "en": "Two men work here.",
+      "zh": "两个男的在这儿上班。",
+      "tokens": [
+        "Two",
+        "men",
+        "work",
+        "here"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L05-s-13",
+      "en": "He has many friends.",
+      "zh": "他有很多朋友。",
+      "tokens": [
+        "He",
+        "has",
+        "many",
+        "friends"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L05-s-14",
+      "en": "My kids need new shoes.",
+      "zh": "我的孩子需要新鞋。",
+      "tokens": [
+        "My",
+        "kids",
+        "need",
+        "new",
+        "shoes"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L05-s-15",
+      "en": "She has two sisters and one brother.",
+      "zh": "她有两个姐妹和一个弟弟。",
+      "tokens": [
+        "She",
+        "has",
+        "two",
+        "sisters",
+        "and",
+        "one",
+        "brother"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L05-s-16",
+      "en": "I eat rice, and my friends eat noodles.",
+      "zh": "我吃米饭，我朋友吃面条。",
+      "tokens": [
+        "I",
+        "eat",
+        "rice",
+        "and",
+        "my",
+        "friends",
+        "eat",
+        "noodles"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L05-s-17",
+      "en": "We have three rooms, but they have five rooms.",
+      "zh": "我们有三个房间，他们有五个房间。",
+      "tokens": [
+        "We",
+        "have",
+        "three",
+        "rooms",
+        "but",
+        "they",
+        "have",
+        "five",
+        "rooms"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L05-s-18",
+      "en": "My mom buys apples and eggs, and my dad wants coffee.",
+      "zh": "我妈买苹果和鸡蛋，我爸想喝咖啡。",
+      "tokens": [
+        "My",
+        "mom",
+        "buys",
+        "apples",
+        "and",
+        "eggs",
+        "and",
+        "my",
+        "dad",
+        "wants",
+        "coffee"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    }
+  ]
+}

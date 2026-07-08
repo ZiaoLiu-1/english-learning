@@ -1,0 +1,470 @@
+{
+  "lesson": "L06",
+  "status": "draft",
+  "exercises": [
+    {
+      "uid": "L06-mcq-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "冠词是放在哪一类词前面的小词？",
+        "options": [
+          "名词",
+          "动词",
+          "形容词"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "冠词专门放在名词前面，帮听者判断名词是泛指还是特指；动词、形容词前不用冠词。"
+    },
+    {
+      "uid": "L06-mcq-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "I eat ___ egg every morning.（每天早上吃一个鸡蛋）",
+        "options": [
+          "a",
+          "an",
+          "什么都不加"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "egg 读音以元音开头，单数可数名词泛指用 an；a 读音不对，什么都不加则丢了冠词。"
+    },
+    {
+      "uid": "L06-mcq-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "She has ___ car.（她有一辆车）",
+        "options": [
+          "a",
+          "an",
+          "什么都不加"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "car 读音以辅音开头用 a；an 只用在元音开头的词前，什么都不加则单数可数名词丢了冠词。"
+    },
+    {
+      "uid": "L06-mcq-04",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "He is ___ student.（他是学生）",
+        "options": [
+          "a",
+          "an",
+          "什么都不加"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "student 是单数可数名词，前面不能空着，泛指用 a；它读音是辅音开头，不用 an。"
+    },
+    {
+      "uid": "L06-mcq-05",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "I have a phone. ___ phone is new.（第二次提到那部手机）",
+        "options": [
+          "A",
+          "The",
+          "An"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "同一部手机第二次提到，双方已经知道指哪部，用 The 特指；A/An 只用于第一次泛指。"
+    },
+    {
+      "uid": "L06-mcq-06",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "下面哪一句对？（advice = 建议）",
+        "options": [
+          "I need a advice.",
+          "I need advice.",
+          "I need an advice."
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "advice 是不可数名词，前面不能加 a/an，直接说 advice。"
+    },
+    {
+      "uid": "L06-mcq-07",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "This is ___ orange.（这是一个橙子）",
+        "options": [
+          "a",
+          "an",
+          "什么都不加"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "orange 读音以元音开头，单数可数名词用 an；a 读音不对，什么都不加则丢了冠词。"
+    },
+    {
+      "uid": "L06-mcq-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "下面哪一句对？（泛指苹果这种东西）",
+        "options": [
+          "I like a apples.",
+          "I like apples.",
+          "I like an apples."
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "apples 是复数，泛指某类东西时前面不加 a/an；而且 a/an 只能配单数，不能配复数。"
+    },
+    {
+      "uid": "L06-mcq-09",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "___ sun is very hot today.（太阳，天上唯一那个）",
+        "options": [
+          "A",
+          "The",
+          "An"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "太阳是现场唯一、人人都知道是哪个的东西，用 The 特指；这种独一无二的东西不用 A/An。"
+    },
+    {
+      "uid": "L06-mcq-10",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "I get ___ email from my boss every day.（每天收到一封邮件）",
+        "options": [
+          "a",
+          "an",
+          "什么都不加"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "email 读音以元音开头，单数可数名词泛指用 an；a 读音不对，什么都不加则丢了冠词。"
+    },
+    {
+      "uid": "L06-cloze-01",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "She eats ___ apple every day.（每天吃一个苹果）",
+        "blanks": [
+          {
+            "accept": [
+              "an"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "apple 读音以元音开头，单数可数名词泛指用 an，不是 a。"
+    },
+    {
+      "uid": "L06-cloze-02",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "He has ___ dog at home.（家里养了一条狗）",
+        "blanks": [
+          {
+            "accept": [
+              "a"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "dog 读音以辅音开头，单数可数名词泛指用 a，不用 an。"
+    },
+    {
+      "uid": "L06-cloze-03",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "I want ___ egg for breakfast.（早餐想要一个鸡蛋）",
+        "blanks": [
+          {
+            "accept": [
+              "an"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "egg 读音以元音开头，单数可数名词用 an，不是 a。"
+    },
+    {
+      "uid": "L06-cloze-04",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "I have ___ pen and ___ umbrella.（一支笔、一把伞）",
+        "blanks": [
+          {
+            "accept": [
+              "a"
+            ]
+          },
+          {
+            "accept": [
+              "an"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "pen 辅音开头用 a；umbrella 元音开头用 an。a/an 全看紧跟那个词的读音。"
+    },
+    {
+      "uid": "L06-cloze-05",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "I have ___ car. ___ car is very fast.（先说一辆车，再说那辆车）",
+        "blanks": [
+          {
+            "accept": [
+              "a"
+            ]
+          },
+          {
+            "accept": [
+              "the"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "第一次提到用 a（泛指某辆车）；第二次双方已经知道指哪辆了，换成 the。"
+    },
+    {
+      "uid": "L06-cloze-06",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "___ sun is very hot today.（太阳，天上唯一那个）",
+        "blanks": [
+          {
+            "accept": [
+              "the"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "太阳现场唯一、人人都知道是哪个，用 the 特指，不用 a。"
+    },
+    {
+      "uid": "L06-cloze-07",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "She reads ___ book. ___ book is about food.（一本书；那本书讲吃的）",
+        "blanks": [
+          {
+            "accept": [
+              "a"
+            ]
+          },
+          {
+            "accept": [
+              "the"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "第一次提到某本书用 a；再说这本书时双方已知道指哪本，用 the。"
+    },
+    {
+      "uid": "L06-cloze-08",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "I eat ___ banana and ___ orange.（一根香蕉、一个橙子）",
+        "blanks": [
+          {
+            "accept": [
+              "a"
+            ]
+          },
+          {
+            "accept": [
+              "an"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "banana 辅音开头用 a；orange 元音开头用 an。同一句里两个词读音不同，冠词也不同。"
+    },
+    {
+      "uid": "L06-correct-01",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "I",
+          "am",
+          "student"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "a student"
+        ]
+      },
+      "explain_zh": "student 是单数可数名词，前面不能空着，泛指用 a，补成 a student，正确是 I am a student。"
+    },
+    {
+      "uid": "L06-correct-02",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "He",
+          "has",
+          "car"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "a car"
+        ]
+      },
+      "explain_zh": "car 是单数可数名词，前面丢了冠词，泛指用 a，补成 a car，正确是 He has a car。"
+    },
+    {
+      "uid": "L06-correct-03",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "I",
+          "want",
+          "a",
+          "apple"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "an"
+        ]
+      },
+      "explain_zh": "apple 读音以元音开头，要用 an 不是 a，正确是 I want an apple。"
+    },
+    {
+      "uid": "L06-correct-04",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "She",
+          "eats",
+          "a",
+          "egg",
+          "for",
+          "lunch"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "an"
+        ]
+      },
+      "explain_zh": "egg 读音以元音开头，要用 an 不是 a，正确是 She eats an egg for lunch。"
+    },
+    {
+      "uid": "L06-correct-05",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "I",
+          "have",
+          "a",
+          "money"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "delete": true
+      },
+      "explain_zh": "money 是不可数名词，数不出“一个”，前面不能加 a，删掉 a，正确是 I have money。"
+    },
+    {
+      "uid": "L06-correct-06",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "A",
+          "sun",
+          "is",
+          "very",
+          "hot"
+        ]
+      },
+      "answer": {
+        "error_index": 0,
+        "corrections": [
+          "The"
+        ]
+      },
+      "explain_zh": "太阳现场唯一、人人都知道是哪个，要用 The 特指，不用 A，正确是 The sun is very hot。"
+    },
+    {
+      "uid": "L06-correct-07",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "I",
+          "see",
+          "dog"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "a dog"
+        ]
+      },
+      "explain_zh": "dog 是单数可数名词，前面丢了冠词，泛指用 a，补成 a dog，正确是 I see a dog。"
+    }
+  ]
+}

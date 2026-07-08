@@ -1,0 +1,286 @@
+{
+  "pack": "L06",
+  "status": "draft",
+  "sentences": [
+    {
+      "uid": "L06-s-01",
+      "en": "I have an apple.",
+      "zh": "我有一个苹果。",
+      "tokens": [
+        "I",
+        "have",
+        "an",
+        "apple"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L06-s-02",
+      "en": "He needs a pen.",
+      "zh": "他需要一支笔。",
+      "tokens": [
+        "He",
+        "needs",
+        "a",
+        "pen"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L06-s-03",
+      "en": "We have a dog.",
+      "zh": "我们养了一条狗。",
+      "tokens": [
+        "We",
+        "have",
+        "a",
+        "dog"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L06-s-04",
+      "en": "This is an orange.",
+      "zh": "这是一个橙子。",
+      "tokens": [
+        "This",
+        "is",
+        "an",
+        "orange"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L06-s-05",
+      "en": "He has an umbrella.",
+      "zh": "他有一把伞。",
+      "tokens": [
+        "He",
+        "has",
+        "an",
+        "umbrella"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L06-s-06",
+      "en": "The soup is hot.",
+      "zh": "这汤很烫。",
+      "tokens": [
+        "The",
+        "soup",
+        "is",
+        "hot"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L06-s-07",
+      "en": "I eat an egg every day.",
+      "zh": "我每天吃一个鸡蛋。",
+      "tokens": [
+        "I",
+        "eat",
+        "an",
+        "egg",
+        "every",
+        "day"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L06-s-08",
+      "en": "She wants a book.",
+      "zh": "她想要一本书。",
+      "tokens": [
+        "She",
+        "wants",
+        "a",
+        "book"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L06-s-09",
+      "en": "I need a new bag.",
+      "zh": "我需要一个新包。",
+      "tokens": [
+        "I",
+        "need",
+        "a",
+        "new",
+        "bag"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L06-s-10",
+      "en": "She works in an office.",
+      "zh": "她在一家办公室上班。",
+      "tokens": [
+        "She",
+        "works",
+        "in",
+        "an",
+        "office"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L06-s-11",
+      "en": "The tea is cold.",
+      "zh": "这茶凉了。",
+      "tokens": [
+        "The",
+        "tea",
+        "is",
+        "cold"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L06-s-12",
+      "en": "It is an easy job.",
+      "zh": "这是份轻松的活。",
+      "tokens": [
+        "It",
+        "is",
+        "an",
+        "easy",
+        "job"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L06-s-13",
+      "en": "I need a doctor.",
+      "zh": "我需要看医生。",
+      "tokens": [
+        "I",
+        "need",
+        "a",
+        "doctor"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L06-s-14",
+      "en": "The room is very clean.",
+      "zh": "这房间很干净。",
+      "tokens": [
+        "The",
+        "room",
+        "is",
+        "very",
+        "clean"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L06-s-15",
+      "en": "I have a car, and the car is red.",
+      "zh": "我有一辆车，这车是红的。",
+      "tokens": [
+        "I",
+        "have",
+        "a",
+        "car",
+        "and",
+        "the",
+        "car",
+        "is",
+        "red"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L06-s-16",
+      "en": "She has a cat, and the cat is very cute.",
+      "zh": "她养了一只猫，这猫很可爱。",
+      "tokens": [
+        "She",
+        "has",
+        "a",
+        "cat",
+        "and",
+        "the",
+        "cat",
+        "is",
+        "very",
+        "cute"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L06-s-17",
+      "en": "He wants an apple, but I want an orange.",
+      "zh": "他想要一个苹果，我想要一个橙子。",
+      "tokens": [
+        "He",
+        "wants",
+        "an",
+        "apple",
+        "but",
+        "I",
+        "want",
+        "an",
+        "orange"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L06-s-18",
+      "en": "The teacher has a book, and the book is new.",
+      "zh": "老师有一本书，这书是新的。",
+      "tokens": [
+        "The",
+        "teacher",
+        "has",
+        "a",
+        "book",
+        "and",
+        "the",
+        "book",
+        "is",
+        "new"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    }
+  ]
+}

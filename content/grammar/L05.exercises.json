@@ -1,0 +1,454 @@
+{
+  "lesson": "L05",
+  "status": "draft",
+  "exercises": [
+    {
+      "uid": "L05-mcq-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "可数名词（如 book）不止一个时，一般要怎么变？",
+        "options": [
+          "词尾加 -s 变复数",
+          "字形不变，前面加数字就行",
+          "前面加 a"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "可数名词多于一个要变复数，一般词尾加 -s，如 book → books；字形不变、加 a 都不对。"
+    },
+    {
+      "uid": "L05-mcq-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "下面哪个是不可数名词（不能一个两个地数）？",
+        "options": [
+          "book",
+          "apple",
+          "water"
+        ]
+      },
+      "answer": {
+        "index": 2
+      },
+      "explain_zh": "water（水）不能一个两个地数，是不可数名词；book、apple 能数，是可数名词。"
+    },
+    {
+      "uid": "L05-mcq-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "I have two ___.（我有两本书）空里该填什么？",
+        "options": [
+          "book",
+          "books",
+          "bookes"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "two 说明不止一个，book 是可数名词要变复数加 -s 变 books；book 漏了 -s，bookes 拼写错。"
+    },
+    {
+      "uid": "L05-mcq-04",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "watch（手表）的复数是哪个？",
+        "options": [
+          "watchs",
+          "watches",
+          "watch"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "watch 以 ch 结尾，复数加 -es 变 watches；watchs 拼写错，watch 没变复数。"
+    },
+    {
+      "uid": "L05-mcq-05",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "下面哪一句对？（information = 信息）",
+        "options": [
+          "I need informations.",
+          "I need information.",
+          "I need a information."
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "information 是不可数名词，没有复数不能加 -s，也不能加 a，直接用 information。"
+    },
+    {
+      "uid": "L05-mcq-06",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "many（许多）能和下面哪个搭配？",
+        "options": [
+          "many money",
+          "many books",
+          "many water"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "many 只能配可数名词的复数，books 可数，对；money、water 是不可数名词，不能用 many。"
+    },
+    {
+      "uid": "L05-mcq-07",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "one man（一个男的），两个就是 two ___。",
+        "options": [
+          "mans",
+          "men",
+          "man"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "man 是不规则复数，两个用 men，不是按规矩加 -s 的 mans；man 还是单数。"
+    },
+    {
+      "uid": "L05-mcq-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "child（小孩）的复数是哪个？",
+        "options": [
+          "childs",
+          "children",
+          "childes"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "child 是不规则复数，复数是 children，不是加 -s 的 childs，也不是 childes。"
+    },
+    {
+      "uid": "L05-mcq-09",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "下面哪一句对？（advice = 建议）",
+        "options": [
+          "He gives me a advice.",
+          "He gives me advice.",
+          "He gives me advices."
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "advice 是不可数名词，前面不能加 a，也不能加 -s 变 advices，直接说 advice。"
+    },
+    {
+      "uid": "L05-mcq-10",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "one foot（一只脚），复数是哪个？",
+        "options": [
+          "foots",
+          "feet",
+          "foot"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "foot 是不规则复数，复数是 feet，不是加 -s 的 foots；foot 还是单数。"
+    },
+    {
+      "uid": "L05-cloze-01",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "I have three ___.（书，用 book）",
+        "blanks": [
+          {
+            "accept": [
+              "books"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "three 说明不止一个，book 是可数名词，复数加 -s 变 books。"
+    },
+    {
+      "uid": "L05-cloze-02",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "She has two ___.（猫，用 cat）",
+        "blanks": [
+          {
+            "accept": [
+              "cats"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "two 说明不止一个，cat 是可数名词，复数加 -s 变 cats。"
+    },
+    {
+      "uid": "L05-cloze-03",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "I need two ___.（盒子，用 box）",
+        "blanks": [
+          {
+            "accept": [
+              "boxes"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "box 以 x 结尾，复数加 -es 变 boxes，不是 boxs。"
+    },
+    {
+      "uid": "L05-cloze-04",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "I drink ___ every day.（水，用 water）",
+        "blanks": [
+          {
+            "accept": [
+              "water"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "water 是不可数名词，没有复数，永远保持原样 water，不加 -s。"
+    },
+    {
+      "uid": "L05-cloze-05",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "He gives me good ___.（建议，用 advice）",
+        "blanks": [
+          {
+            "accept": [
+              "advice"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "advice 是不可数名词，没有复数，保持原样 advice，不能加 -s 变 advices。"
+    },
+    {
+      "uid": "L05-cloze-06",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "I see two ___ here.（man 的复数，两个男的）",
+        "blanks": [
+          {
+            "accept": [
+              "men"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "man 是不规则复数，两个用 men，不是 mans。"
+    },
+    {
+      "uid": "L05-cloze-07",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "My ___ hurt today.（foot 的复数，脚疼）",
+        "blanks": [
+          {
+            "accept": [
+              "feet"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "foot 是不规则复数，两只脚用 feet，不是 foots。"
+    },
+    {
+      "uid": "L05-cloze-08",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "She has three ___, and he wants ___.（apple；rice）",
+        "blanks": [
+          {
+            "accept": [
+              "apples"
+            ]
+          },
+          {
+            "accept": [
+              "rice"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "apple 可数，three 后加 -s 变 apples；rice 不可数，保持原样 rice 不加 -s。一句里两类名词对照。"
+    },
+    {
+      "uid": "L05-correct-01",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "I",
+          "have",
+          "two",
+          "book"
+        ]
+      },
+      "answer": {
+        "error_index": 3,
+        "corrections": [
+          "books"
+        ]
+      },
+      "explain_zh": "book 是可数名词，two 说明不止一个，要加 -s 变复数，正确是 I have two books。"
+    },
+    {
+      "uid": "L05-correct-02",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "She",
+          "has",
+          "three",
+          "cat"
+        ]
+      },
+      "answer": {
+        "error_index": 3,
+        "corrections": [
+          "cats"
+        ]
+      },
+      "explain_zh": "cat 是可数名词，three 说明不止一个，加 -s 变 cats，正确是 She has three cats。"
+    },
+    {
+      "uid": "L05-correct-03",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "I",
+          "need",
+          "two",
+          "boxs"
+        ]
+      },
+      "answer": {
+        "error_index": 3,
+        "corrections": [
+          "boxes"
+        ]
+      },
+      "explain_zh": "box 以 x 结尾，复数加 -es 变 boxes，不是 boxs，正确是 I need two boxes。"
+    },
+    {
+      "uid": "L05-correct-04",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "He",
+          "gives",
+          "me",
+          "informations"
+        ]
+      },
+      "answer": {
+        "error_index": 3,
+        "corrections": [
+          "information"
+        ]
+      },
+      "explain_zh": "information 是不可数名词，没有复数，去掉 -s 变 information，正确是 He gives me information。"
+    },
+    {
+      "uid": "L05-correct-05",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "He",
+          "gives",
+          "me",
+          "a",
+          "advice"
+        ]
+      },
+      "answer": {
+        "error_index": 3,
+        "delete": true
+      },
+      "explain_zh": "advice 是不可数名词，数不出“一个”，前面不能加 a，删掉 a，正确是 He gives me advice。"
+    },
+    {
+      "uid": "L05-correct-06",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "I",
+          "see",
+          "two",
+          "mans"
+        ]
+      },
+      "answer": {
+        "error_index": 3,
+        "corrections": [
+          "men"
+        ]
+      },
+      "explain_zh": "man 是不规则复数，两个用 men，不是加 -s 的 mans，正确是 I see two men。"
+    },
+    {
+      "uid": "L05-correct-07",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "I",
+          "have",
+          "many",
+          "money"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "delete": true
+      },
+      "explain_zh": "money 是不可数名词，不能用 many 去数它（many 只配可数名词的复数），删掉 many，正确是 I have money；“钱多”英文另有说法，后面课学。"
+    }
+  ]
+}

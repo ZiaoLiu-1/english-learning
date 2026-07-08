@@ -1,0 +1,301 @@
+{
+  "pack": "L04",
+  "status": "draft",
+  "sentences": [
+    {
+      "uid": "L04-s-01",
+      "en": "He works in a big office.",
+      "zh": "他在一家大公司上班。",
+      "tokens": [
+        "He",
+        "works",
+        "in",
+        "a",
+        "big",
+        "office"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L04-s-02",
+      "en": "She likes coffee.",
+      "zh": "她喜欢咖啡。",
+      "tokens": [
+        "She",
+        "likes",
+        "coffee"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L04-s-03",
+      "en": "My friend goes to the gym every day.",
+      "zh": "我朋友每天去健身房。",
+      "tokens": [
+        "My",
+        "friend",
+        "goes",
+        "to",
+        "the",
+        "gym",
+        "every",
+        "day"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L04-s-04",
+      "en": "Tom has a new phone.",
+      "zh": "Tom 有一部新手机。",
+      "tokens": [
+        "Tom",
+        "has",
+        "a",
+        "new",
+        "phone"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L04-s-05",
+      "en": "It rains a lot here.",
+      "zh": "这里经常下雨。",
+      "tokens": [
+        "It",
+        "rains",
+        "a",
+        "lot",
+        "here"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L04-s-06",
+      "en": "My sister watches TV after dinner.",
+      "zh": "我妹妹晚饭后看电视。",
+      "tokens": [
+        "My",
+        "sister",
+        "watches",
+        "TV",
+        "after",
+        "dinner"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L04-s-07",
+      "en": "We live near the station.",
+      "zh": "我们住在车站附近。",
+      "tokens": [
+        "We",
+        "live",
+        "near",
+        "the",
+        "station"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L04-s-08",
+      "en": "She reads the news every morning.",
+      "zh": "她每天早上看新闻。",
+      "tokens": [
+        "She",
+        "reads",
+        "the",
+        "news",
+        "every",
+        "morning"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L04-s-09",
+      "en": "He drinks tea, not coffee.",
+      "zh": "他喝茶，不喝咖啡。",
+      "tokens": [
+        "He",
+        "drinks",
+        "tea",
+        "not",
+        "coffee"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L04-s-10",
+      "en": "They play football on weekends.",
+      "zh": "他们周末踢足球。",
+      "tokens": [
+        "They",
+        "play",
+        "football",
+        "on",
+        "weekends"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L04-s-11",
+      "en": "My dad drives to work.",
+      "zh": "我爸开车上班。",
+      "tokens": [
+        "My",
+        "dad",
+        "drives",
+        "to",
+        "work"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L04-s-12",
+      "en": "Anna wants a cup of tea.",
+      "zh": "Anna 想要一杯茶。",
+      "tokens": [
+        "Anna",
+        "wants",
+        "a",
+        "cup",
+        "of",
+        "tea"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L04-s-13",
+      "en": "The boss needs the report today.",
+      "zh": "老板今天要那份报告。",
+      "tokens": [
+        "The",
+        "boss",
+        "needs",
+        "the",
+        "report",
+        "today"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L04-s-14",
+      "en": "My mom loves this song.",
+      "zh": "我妈很喜欢这首歌。",
+      "tokens": [
+        "My",
+        "mom",
+        "loves",
+        "this",
+        "song"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L04-s-15",
+      "en": "He works hard, and he likes his job.",
+      "zh": "他工作努力，也喜欢自己的工作。",
+      "tokens": [
+        "He",
+        "works",
+        "hard",
+        "and",
+        "he",
+        "likes",
+        "his",
+        "job"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L04-s-16",
+      "en": "She has a dog, and it eats a lot.",
+      "zh": "她养了条狗，它吃得很多。",
+      "tokens": [
+        "She",
+        "has",
+        "a",
+        "dog",
+        "and",
+        "it",
+        "eats",
+        "a",
+        "lot"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L04-s-17",
+      "en": "I work in a school, but my brother works in a bank.",
+      "zh": "我在学校工作，我弟弟在银行工作。",
+      "tokens": [
+        "I",
+        "work",
+        "in",
+        "a",
+        "school",
+        "but",
+        "my",
+        "brother",
+        "works",
+        "in",
+        "a",
+        "bank"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L04-s-18",
+      "en": "They eat breakfast at home, and she eats at work.",
+      "zh": "他们在家吃早饭，她在公司吃。",
+      "tokens": [
+        "They",
+        "eat",
+        "breakfast",
+        "at",
+        "home",
+        "and",
+        "she",
+        "eats",
+        "at",
+        "work"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    }
+  ]
+}

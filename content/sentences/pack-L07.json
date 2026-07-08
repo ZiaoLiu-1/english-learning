@@ -1,0 +1,282 @@
+{
+  "pack": "L07",
+  "status": "draft",
+  "sentences": [
+    {
+      "uid": "L07-s-01",
+      "en": "He is my brother.",
+      "zh": "他是我哥哥。",
+      "tokens": [
+        "He",
+        "is",
+        "my",
+        "brother"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L07-s-02",
+      "en": "I know her.",
+      "zh": "我认识她。",
+      "tokens": [
+        "I",
+        "know",
+        "her"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L07-s-03",
+      "en": "She loves me.",
+      "zh": "她爱我。",
+      "tokens": [
+        "She",
+        "loves",
+        "me"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L07-s-04",
+      "en": "They are my friends.",
+      "zh": "他们是我的朋友。",
+      "tokens": [
+        "They",
+        "are",
+        "my",
+        "friends"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L07-s-05",
+      "en": "This is his car.",
+      "zh": "这是他的车。",
+      "tokens": [
+        "This",
+        "is",
+        "his",
+        "car"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L07-s-06",
+      "en": "We like it.",
+      "zh": "我们喜欢它。",
+      "tokens": [
+        "We",
+        "like",
+        "it"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L07-s-07",
+      "en": "Her sister works with me.",
+      "zh": "她姐姐和我一起上班。",
+      "tokens": [
+        "Her",
+        "sister",
+        "works",
+        "with",
+        "me"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L07-s-08",
+      "en": "He calls us every day.",
+      "zh": "他每天给我们打电话。",
+      "tokens": [
+        "He",
+        "calls",
+        "us",
+        "every",
+        "day"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L07-s-09",
+      "en": "I love your new car.",
+      "zh": "我喜欢你的新车。",
+      "tokens": [
+        "I",
+        "love",
+        "your",
+        "new",
+        "car"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L07-s-10",
+      "en": "His job is very hard.",
+      "zh": "他的工作很辛苦。",
+      "tokens": [
+        "His",
+        "job",
+        "is",
+        "very",
+        "hard"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L07-s-11",
+      "en": "She helps them at work.",
+      "zh": "她在公司帮他们。",
+      "tokens": [
+        "She",
+        "helps",
+        "them",
+        "at",
+        "work"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L07-s-12",
+      "en": "Our teacher likes us.",
+      "zh": "我们的老师喜欢我们。",
+      "tokens": [
+        "Our",
+        "teacher",
+        "likes",
+        "us"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L07-s-13",
+      "en": "My phone is new.",
+      "zh": "我的手机是新的。",
+      "tokens": [
+        "My",
+        "phone",
+        "is",
+        "new"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L07-s-14",
+      "en": "This is my bag, and that is his bag.",
+      "zh": "这是我的包，那是他的包。",
+      "tokens": [
+        "This",
+        "is",
+        "my",
+        "bag",
+        "and",
+        "that",
+        "is",
+        "his",
+        "bag"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L07-s-15",
+      "en": "I like her, and she likes me.",
+      "zh": "我喜欢她，她也喜欢我。",
+      "tokens": [
+        "I",
+        "like",
+        "her",
+        "and",
+        "she",
+        "likes",
+        "me"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L07-s-16",
+      "en": "He wants my car, but I want his car.",
+      "zh": "他想要我的车，我想要他的车。",
+      "tokens": [
+        "He",
+        "wants",
+        "my",
+        "car",
+        "but",
+        "I",
+        "want",
+        "his",
+        "car"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L07-s-17",
+      "en": "Her friends know me, and I know them.",
+      "zh": "她的朋友认识我，我也认识他们。",
+      "tokens": [
+        "Her",
+        "friends",
+        "know",
+        "me",
+        "and",
+        "I",
+        "know",
+        "them"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L07-s-18",
+      "en": "Their house is big, and our house is small.",
+      "zh": "他们的房子大，我们的房子小。",
+      "tokens": [
+        "Their",
+        "house",
+        "is",
+        "big",
+        "and",
+        "our",
+        "house",
+        "is",
+        "small"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    }
+  ]
+}

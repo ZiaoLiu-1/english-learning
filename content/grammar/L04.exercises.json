@@ -1,0 +1,469 @@
+{
+  "lesson": "L04",
+  "status": "draft",
+  "exercises": [
+    {
+      "uid": "L04-mcq-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "一般现在时主要用来说什么？",
+        "options": [
+          "此刻正在做的动作",
+          "经常做、习惯性或一直如此的事",
+          "昨天已经做过的事"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "一般现在时说的是经常/习惯/事实，不是此刻正在进行，也不是过去做过的。"
+    },
+    {
+      "uid": "L04-mcq-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "下面哪个主语是第三人称单数（三单）？",
+        "options": [
+          "I",
+          "they",
+          "she"
+        ]
+      },
+      "answer": {
+        "index": 2
+      },
+      "explain_zh": "she 是“她”，第三人称又是单数，就是三单；I 是第一人称，they 是复数，都不是。"
+    },
+    {
+      "uid": "L04-mcq-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "He ___ to work every day.（他每天去上班）空里该填什么？",
+        "options": [
+          "go",
+          "goes",
+          "is go"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "主语 He 是三单，动词要加词尾，go 以 o 结尾变 goes；go 漏了 -s，is go 是 be 和实义动词叠用。"
+    },
+    {
+      "uid": "L04-mcq-04",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "They ___ near the station.（他们住在车站附近）空里该填什么？",
+        "options": [
+          "live",
+          "lives",
+          "are live"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "主语 They 是复数，动词保持原样 live 不加 -s；lives 是三单才用，are live 是叠用两个动词。"
+    },
+    {
+      "uid": "L04-mcq-05",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "She ___ a car.（她有一辆车）空里该填什么？",
+        "options": [
+          "have",
+          "has",
+          "haves"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "主语 She 是三单，have 是特殊词，不加 -s，而是整个变成 has；haves 不是词。"
+    },
+    {
+      "uid": "L04-mcq-06",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "My friend ___ coffee every morning.（我朋友每天早上喝咖啡）空里该填什么？",
+        "options": [
+          "drink",
+          "drinks",
+          "is drink"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "My friend 是一个人，属于三单，动词加 -s 变 drinks；drink 漏了 -s，is drink 是 be 和实义动词叠用。"
+    },
+    {
+      "uid": "L04-mcq-07",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "I ___ my job.（我喜欢我的工作）空里该填什么？",
+        "options": [
+          "like",
+          "likes",
+          "am like"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "主语 I 是第一人称，不是三单，动词保持原样 like 不加 -s；likes 是三单才加，am like 是叠用。"
+    },
+    {
+      "uid": "L04-mcq-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "Anna ___ TV after dinner.（Anna 晚饭后看电视）空里该填什么？",
+        "options": [
+          "watch",
+          "watchs",
+          "watches"
+        ]
+      },
+      "answer": {
+        "index": 2
+      },
+      "explain_zh": "主语 Anna 是三单要加词尾，watch 以 ch 结尾加 -es 变 watches；watchs 拼写错，watch 没加。"
+    },
+    {
+      "uid": "L04-mcq-09",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "下面哪一句是对的？",
+        "options": [
+          "We works late on Fridays.",
+          "We work late on Fridays.",
+          "We are work late on Fridays."
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "主语 We 是复数，动词保持原样 work 不加 -s；works 是三单才用，are work 是叠用两个动词。"
+    },
+    {
+      "uid": "L04-mcq-10",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "下面哪一句是对的？",
+        "options": [
+          "My brother watch football every weekend.",
+          "My brother watches football every weekend.",
+          "My brother watchs football every weekend."
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "My brother 是三单，watch 以 ch 结尾加 -es 变 watches；watch 漏了 -s，watchs 拼写错。"
+    },
+    {
+      "uid": "L04-cloze-01",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "He ___ to work by bus.（去，用 go）",
+        "blanks": [
+          {
+            "accept": [
+              "goes"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 He 是三单，一般现在时动词要加词尾，go 以 o 结尾加 -es 变 goes。"
+    },
+    {
+      "uid": "L04-cloze-02",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "They ___ football every weekend.（踢，用 play）",
+        "blanks": [
+          {
+            "accept": [
+              "play"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 They 是复数，动词保持原样 play，不加 -s；三单才加。"
+    },
+    {
+      "uid": "L04-cloze-03",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "She ___ tea, not coffee.（喜欢，用 like）",
+        "blanks": [
+          {
+            "accept": [
+              "likes"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 She 是三单，like 直接加 -s 变 likes。"
+    },
+    {
+      "uid": "L04-cloze-04",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "My mom ___ a small shop.（有，用 have）",
+        "blanks": [
+          {
+            "accept": [
+              "has"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 My mom 是三单，have 是特殊词，不加 -s，而是整个变成 has。"
+    },
+    {
+      "uid": "L04-cloze-05",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "I ___ coffee every morning.（喝，用 drink）",
+        "blanks": [
+          {
+            "accept": [
+              "drink"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 I 是第一人称，不是三单，动词保持原样 drink，不加 -s。"
+    },
+    {
+      "uid": "L04-cloze-06",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "Tom ___ the news every night.（看，用 watch）",
+        "blanks": [
+          {
+            "accept": [
+              "watches"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 Tom 是三单，watch 以 ch 结尾加 -es 变 watches。"
+    },
+    {
+      "uid": "L04-cloze-07",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "She ___ coffee, and we ___ tea.（都用 drink）",
+        "blanks": [
+          {
+            "accept": [
+              "drinks"
+            ]
+          },
+          {
+            "accept": [
+              "drink"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 She 是三单，drink 加 -s 变 drinks；we 是复数，动词原样 drink 不加 -s。同一个动词，主语不同，加不加就不同。"
+    },
+    {
+      "uid": "L04-cloze-08",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "My sister ___ in a bank, and I ___ in a school.（都用 work）",
+        "blanks": [
+          {
+            "accept": [
+              "works"
+            ]
+          },
+          {
+            "accept": [
+              "work"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "My sister 是三单，work 加 -s 变 works；I 是第一人称，不加，用 work。"
+    },
+    {
+      "uid": "L04-correct-01",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "He",
+          "go",
+          "to",
+          "work",
+          "every",
+          "day"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "goes"
+        ]
+      },
+      "explain_zh": "主语 He 是三单，动词要加词尾，go 以 o 结尾加 -es 变 goes，正确是 He goes to work every day。"
+    },
+    {
+      "uid": "L04-correct-02",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "She",
+          "have",
+          "a",
+          "car"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "has"
+        ]
+      },
+      "explain_zh": "主语 She 是三单，have 是特殊词，整个变成 has，正确是 She has a car。"
+    },
+    {
+      "uid": "L04-correct-03",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "They",
+          "works",
+          "in",
+          "a",
+          "bank"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "work"
+        ]
+      },
+      "explain_zh": "主语 They 是复数，动词不加 -s，works 改回 work，正确是 They work in a bank。"
+    },
+    {
+      "uid": "L04-correct-04",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "My",
+          "friend",
+          "like",
+          "this",
+          "song"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "likes"
+        ]
+      },
+      "explain_zh": "主语 My friend 是一个人，属于三单，like 加 -s 变 likes，正确是 My friend likes this song。"
+    },
+    {
+      "uid": "L04-correct-05",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Tom",
+          "watch",
+          "TV",
+          "after",
+          "dinner"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "watches"
+        ]
+      },
+      "explain_zh": "主语 Tom 是三单，watch 以 ch 结尾加 -es 变 watches，正确是 Tom watches TV after dinner。"
+    },
+    {
+      "uid": "L04-correct-06",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "My",
+          "parents",
+          "lives",
+          "in",
+          "Beijing"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "live"
+        ]
+      },
+      "explain_zh": "主语 My parents 是复数（父母不止一个），动词不加 -s，lives 改回 live，正确是 My parents live in Beijing。"
+    },
+    {
+      "uid": "L04-correct-07",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "My",
+          "boss",
+          "go",
+          "home",
+          "late"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "goes"
+        ]
+      },
+      "explain_zh": "主语 My boss 是一个人，属于三单，go 加 -es 变 goes，正确是 My boss goes home late。"
+    }
+  ]
+}

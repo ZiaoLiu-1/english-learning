@@ -1,0 +1,474 @@
+{
+  "lesson": "L07",
+  "status": "draft",
+  "exercises": [
+    {
+      "uid": "L07-mcq-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "代词是用来做什么的词？",
+        "options": [
+          "代替名词，免得同一个词反复说",
+          "表示一个动作",
+          "形容名词长什么样"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "代词的作用是代替名词、免得重复，说过 Tom 后再提他就用 he；表示动作的是动词，形容名词的是形容词。"
+    },
+    {
+      "uid": "L07-mcq-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "___ is my friend.（他是我朋友）",
+        "options": [
+          "He",
+          "Him",
+          "His"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "主语在动词前，用主格 He；Him 是宾格只能做宾语，His 是物主代词后面还得跟名词。"
+    },
+    {
+      "uid": "L07-mcq-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "I love ___.（我爱她）",
+        "options": [
+          "she",
+          "her",
+          "he"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "love 后面是宾语，用宾格 her；she、he 是主格，只能放在动词前做主语。"
+    },
+    {
+      "uid": "L07-mcq-04",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "This is ___ phone.（这是我的手机）",
+        "options": [
+          "I",
+          "me",
+          "my"
+        ]
+      },
+      "answer": {
+        "index": 2
+      },
+      "explain_zh": "名词 phone 前面表示“谁的”，用物主代词 my；I 是主格、me 是宾格，都不能直接放名词前。"
+    },
+    {
+      "uid": "L07-mcq-05",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "___ car is red.（他的车是红的）",
+        "options": [
+          "He",
+          "He's",
+          "His"
+        ]
+      },
+      "answer": {
+        "index": 2
+      },
+      "explain_zh": "名词 car 前面表示“他的”，用 His；He 是主格，He's 是 he is 的缩写（他是），都不能表示所属。"
+    },
+    {
+      "uid": "L07-mcq-06",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "She calls ___ every day.（她每天给我打电话）",
+        "options": [
+          "I",
+          "me",
+          "my"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "call 后面是宾语，用宾格 me；I 是主格只能做主语，my 后面必须跟名词。"
+    },
+    {
+      "uid": "L07-mcq-07",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "下面哪一句对？（这是我的书）",
+        "options": [
+          "This is my.",
+          "This is my book.",
+          "This my book."
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "my 后面必须跟名词，所以“This is my”话没说完；“This my book”缺了动词 is；只有 This is my book 对。"
+    },
+    {
+      "uid": "L07-mcq-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "___ like this movie.（我们喜欢这部电影）",
+        "options": [
+          "Us",
+          "We",
+          "Our"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "主语用主格 We；Us 是宾格只能做宾语，Our 是物主代词后面要跟名词。"
+    },
+    {
+      "uid": "L07-mcq-09",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "I know ___ very well.（我很了解他们）",
+        "options": [
+          "they",
+          "them",
+          "their"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "know 后面是宾语，用宾格 them；they 是主格只能做主语，their 后面还得跟名词。"
+    },
+    {
+      "uid": "L07-mcq-10",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "The dog loves ___ food.（那狗爱吃它的食物）",
+        "options": [
+          "its",
+          "it's",
+          "it"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "名词 food 前面表示“它的”，用 its（没有撇号）；it's 是 it is，it 不能表示所属。"
+    },
+    {
+      "uid": "L07-cloze-01",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "___ is my brother.（他是我哥哥）",
+        "blanks": [
+          {
+            "accept": [
+              "He"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "句子缺主语，在动词 is 前面，用主格 He。"
+    },
+    {
+      "uid": "L07-cloze-02",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "I love ___.（我爱他）",
+        "blanks": [
+          {
+            "accept": [
+              "him"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "love 后面是宾语，用宾格 him；主格 he 不能放在动词后面。"
+    },
+    {
+      "uid": "L07-cloze-03",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "This is ___ book.（这是我的书）",
+        "blanks": [
+          {
+            "accept": [
+              "my"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "名词 book 前面表示“我的”，用物主代词 my。"
+    },
+    {
+      "uid": "L07-cloze-04",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "___ likes ___.（她喜欢我）",
+        "blanks": [
+          {
+            "accept": [
+              "She"
+            ]
+          },
+          {
+            "accept": [
+              "me"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "第一个空是主语，用主格 She；likes 后面是宾语，用宾格 me。"
+    },
+    {
+      "uid": "L07-cloze-05",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "We know ___, and ___ know us.（我们认识他们，他们也认识我们）",
+        "blanks": [
+          {
+            "accept": [
+              "them"
+            ]
+          },
+          {
+            "accept": [
+              "they"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "know 后面是宾语，用宾格 them；第二个空是主语，用主格 they。同一个“他们”，位置不同形式也不同。"
+    },
+    {
+      "uid": "L07-cloze-06",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "That is ___ phone, not ___ phone.（那是我的手机，不是你的手机）",
+        "blanks": [
+          {
+            "accept": [
+              "my"
+            ]
+          },
+          {
+            "accept": [
+              "your"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "两个空都在名词 phone 前面表示“谁的”：第一个是“我的”用 my，第二个是“你的”用 your。"
+    },
+    {
+      "uid": "L07-cloze-07",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "She helps ___ with ___ homework.（她帮我做我的作业）",
+        "blanks": [
+          {
+            "accept": [
+              "me"
+            ]
+          },
+          {
+            "accept": [
+              "my"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "helps 后面是宾语，用宾格 me；名词 homework 前面表示“我的”，用物主代词 my。"
+    },
+    {
+      "uid": "L07-cloze-08",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "The cat loves ___ food.（那只猫爱吃它的食物）",
+        "blanks": [
+          {
+            "accept": [
+              "its"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "名词 food 前面表示“它的”，用 its（没有撇号）；it's 是 it is，不表示所属。"
+    },
+    {
+      "uid": "L07-correct-01",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Him",
+          "works",
+          "in",
+          "a",
+          "bank"
+        ]
+      },
+      "answer": {
+        "error_index": 0,
+        "corrections": [
+          "He"
+        ]
+      },
+      "explain_zh": "主语在动词前，要用主格 He，Him 是宾格，正确是 He works in a bank。"
+    },
+    {
+      "uid": "L07-correct-02",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Her",
+          "likes",
+          "coffee"
+        ]
+      },
+      "answer": {
+        "error_index": 0,
+        "corrections": [
+          "She"
+        ]
+      },
+      "explain_zh": "主语要用主格 She，Her 是宾格，正确是 She likes coffee。"
+    },
+    {
+      "uid": "L07-correct-03",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "I",
+          "see",
+          "she",
+          "every",
+          "day"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "her"
+        ]
+      },
+      "explain_zh": "she 在动词 see 后面做宾语，要用宾格 her，正确是 I see her every day。"
+    },
+    {
+      "uid": "L07-correct-04",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "She",
+          "loves",
+          "he"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "him"
+        ]
+      },
+      "explain_zh": "he 在动词 loves 后面做宾语，要用宾格 him，正确是 She loves him。"
+    },
+    {
+      "uid": "L07-correct-05",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "He's",
+          "car",
+          "is",
+          "new"
+        ]
+      },
+      "answer": {
+        "error_index": 0,
+        "corrections": [
+          "His"
+        ]
+      },
+      "explain_zh": "“他的车”用物主代词 His，He's 是 he is 的缩写（他是），不能表示所属，正确是 His car is new。"
+    },
+    {
+      "uid": "L07-correct-06",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "The",
+          "dog",
+          "loves",
+          "it's",
+          "food"
+        ]
+      },
+      "answer": {
+        "error_index": 3,
+        "corrections": [
+          "its"
+        ]
+      },
+      "explain_zh": "“它的食物”用 its（没有撇号），it's 是 it is，不表示所属，正确是 The dog loves its food。"
+    },
+    {
+      "uid": "L07-correct-07",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "Them",
+          "are",
+          "my",
+          "best",
+          "friends"
+        ]
+      },
+      "answer": {
+        "error_index": 0,
+        "corrections": [
+          "They"
+        ]
+      },
+      "explain_zh": "主语要用主格 They，Them 是宾格只能做宾语，正确是 They are my best friends。"
+    }
+  ]
+}
