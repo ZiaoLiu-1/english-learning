@@ -1,0 +1,483 @@
+{
+  "lesson": "L09",
+  "status": "draft",
+  "exercises": [
+    {
+      "uid": "L09-mcq-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "现在进行时用来说什么？",
+        "options": [
+          "经常做、习惯性的事",
+          "此刻正在进行的动作",
+          "过去发生、已经结束的事"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "现在进行时说的是说话这一刻正在做的动作；经常/习惯的事用一般现在时，过去结束的事用一般过去时。"
+    },
+    {
+      "uid": "L09-mcq-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "现在进行时是怎么构成的？",
+        "options": [
+          "be 动词 + 动词-ing",
+          "只用动词-ing",
+          "be 动词 + 动词原形"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "现在进行时 = be（am/is/are）+ 现在分词（动词-ing），两块都要；缺 be 或不加 -ing 都不成立。"
+    },
+    {
+      "uid": "L09-mcq-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "work 的现在分词（-ing 形式）是哪个？",
+        "options": [
+          "works",
+          "working",
+          "worked"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "现在分词是动词加 -ing，work→working；works 是一般现在时三单形式，worked 是过去式。"
+    },
+    {
+      "uid": "L09-mcq-04",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "I ___ working now.（我现在正在上班）空里该填什么？",
+        "options": [
+          "am",
+          "is",
+          "are"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "主语 I 的 be 动词用 am；is 配 he/she/it，are 配 you/we/they，这里主语是 I。"
+    },
+    {
+      "uid": "L09-mcq-05",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "She ___ lunch right now.（她此刻正在吃午饭，用 eat）空里该填什么？",
+        "options": [
+          "eats",
+          "is eating",
+          "eating"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "right now 是此刻正在进行，用现在进行时 is eating；eats 是一般现在时说习惯，eating 缺了 be 不成句。"
+    },
+    {
+      "uid": "L09-mcq-06",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "make 的现在分词是哪个？",
+        "options": [
+          "makeing",
+          "making",
+          "makes"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "make 词尾是 e，去掉 e 再加 -ing 变 making；makeing 多留了 e 拼错，makes 是三单现在时。"
+    },
+    {
+      "uid": "L09-mcq-07",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "They ___ football now.（他们现在正在踢球，用 play）空里该填什么？",
+        "options": [
+          "play",
+          "are playing",
+          "plays"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "now 表示此刻，用现在进行时 are playing；play、plays 都是一般现在时，说的是习惯不是此刻。"
+    },
+    {
+      "uid": "L09-mcq-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "run 的现在分词是哪个？",
+        "options": [
+          "runing",
+          "running",
+          "runs"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "run 是短元音加一个辅音字母结尾，末字母双写再加 -ing 变 running；runing 少写一个 n 拼错。"
+    },
+    {
+      "uid": "L09-mcq-09",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "要表示“他此刻正在看电视”，下面哪一句是对的？",
+        "options": [
+          "He watching TV now.",
+          "He is watching TV now.",
+          "He watches TV now."
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "现在进行时要 be + 动词-ing；He watching 缺了 be 动词 is，He watches 是一般现在时说习惯，都不表示此刻正在。"
+    },
+    {
+      "uid": "L09-mcq-10",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "下面哪一句说的是习惯（经常做），不是此刻正在做？",
+        "options": [
+          "I am drinking coffee.",
+          "I drink coffee every morning.",
+          "I am reading now."
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "every morning（每天早上）是习惯，用一般现在时 I drink；另外两句是 be+动词-ing 的现在进行时，说的是此刻正在做。"
+    },
+    {
+      "uid": "L09-cloze-01",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "I ___ ___ now.（我正在上班，用 work）",
+        "blanks": [
+          {
+            "accept": [
+              "am"
+            ]
+          },
+          {
+            "accept": [
+              "working"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "现在进行时 = be + 动词-ing；主语 I 的 be 用 am，work 加 -ing 变 working。"
+    },
+    {
+      "uid": "L09-cloze-02",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "She ___ eating lunch.（她正在吃午饭）",
+        "blanks": [
+          {
+            "accept": [
+              "is"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 She 是三单，be 动词用 is；后面 eating 是现在分词，合起来是现在进行时。"
+    },
+    {
+      "uid": "L09-cloze-03",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "They are ___ a movie right now.（看，用 watch）",
+        "blanks": [
+          {
+            "accept": [
+              "watching"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "right now 表此刻，用现在进行时；watch 直接加 -ing 变 watching，跟在 are 后面。"
+    },
+    {
+      "uid": "L09-cloze-04",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "He is ___ coffee.（做、煮，用 make）",
+        "blanks": [
+          {
+            "accept": [
+              "making"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "make 词尾是 e，去掉 e 再加 -ing 变 making，跟在 is 后面构成现在进行时。"
+    },
+    {
+      "uid": "L09-cloze-05",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "The dog is ___ in the yard.（跑，用 run）",
+        "blanks": [
+          {
+            "accept": [
+              "running"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "run 末尾双写辅音字母再加 -ing 变 running，不是 runing；跟在 is 后面表此刻正在。"
+    },
+    {
+      "uid": "L09-cloze-06",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "We ___ ___ for the bus.（等，用 wait）",
+        "blanks": [
+          {
+            "accept": [
+              "are"
+            ]
+          },
+          {
+            "accept": [
+              "waiting"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 We 的 be 用 are，wait 加 -ing 变 waiting；be + 动词-ing 才是现在进行时。"
+    },
+    {
+      "uid": "L09-cloze-07",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "She ___ ___ her phone right now.（用，用 use）",
+        "blanks": [
+          {
+            "accept": [
+              "is"
+            ]
+          },
+          {
+            "accept": [
+              "using"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 She 三单用 is；use 词尾是 e，去掉 e 再加 -ing 变 using。"
+    },
+    {
+      "uid": "L09-cloze-08",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "I ___ ___ English at home now.（学，用 study）",
+        "blanks": [
+          {
+            "accept": [
+              "am"
+            ]
+          },
+          {
+            "accept": [
+              "studying"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 I 用 am；study 直接加 -ing 变 studying（-y 不用变，别写成 studiing）。"
+    },
+    {
+      "uid": "L09-correct-01",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "He",
+          "is",
+          "play",
+          "football",
+          "now"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "playing"
+        ]
+      },
+      "explain_zh": "现在进行时 be 后面要用动词的 -ing 形式，play 加 -ing 变 playing，不能用原形 play，正确是 He is playing football now。"
+    },
+    {
+      "uid": "L09-correct-02",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "I",
+          "am",
+          "eat",
+          "lunch",
+          "now"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "eating"
+        ]
+      },
+      "explain_zh": "am 后面要跟现在分词，eat 加 -ing 变 eating；be + 动词-ing 才是现在进行时，正确是 I am eating lunch now。"
+    },
+    {
+      "uid": "L09-correct-03",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "The",
+          "dog",
+          "is",
+          "runing",
+          "in",
+          "the",
+          "yard"
+        ]
+      },
+      "answer": {
+        "error_index": 3,
+        "corrections": [
+          "running"
+        ]
+      },
+      "explain_zh": "run 末尾要双写辅音字母再加 -ing，是 running 不是 runing，正确是 The dog is running in the yard。"
+    },
+    {
+      "uid": "L09-correct-04",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "She",
+          "is",
+          "makeing",
+          "dinner"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "making"
+        ]
+      },
+      "explain_zh": "make 词尾是 e，去掉 e 再加 -ing 变 making，不能写成 makeing，正确是 She is making dinner。"
+    },
+    {
+      "uid": "L09-correct-05",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "He",
+          "plays",
+          "basketball",
+          "right",
+          "now"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "is playing"
+        ]
+      },
+      "explain_zh": "right now 表示此刻正在，要用现在进行时 is playing；plays 是一般现在时说习惯，正确是 He is playing basketball right now。"
+    },
+    {
+      "uid": "L09-correct-06",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "The",
+          "baby",
+          "is",
+          "siting",
+          "on",
+          "the",
+          "floor"
+        ]
+      },
+      "answer": {
+        "error_index": 3,
+        "corrections": [
+          "sitting"
+        ]
+      },
+      "explain_zh": "sit 末尾要双写 t 再加 -ing 变 sitting，不是 siting，正确是 The baby is sitting on the floor。"
+    },
+    {
+      "uid": "L09-correct-07",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "They",
+          "are",
+          "watch",
+          "a",
+          "movie",
+          "now"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "watching"
+        ]
+      },
+      "explain_zh": "are 后面要用现在分词，watch 加 -ing 变 watching；现在进行时 = be + 动词-ing，正确是 They are watching a movie now。"
+    }
+  ]
+}

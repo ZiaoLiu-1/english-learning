@@ -1,0 +1,289 @@
+{
+  "pack": "L09",
+  "status": "draft",
+  "sentences": [
+    {
+      "uid": "L09-s-01",
+      "en": "I am working right now.",
+      "zh": "我此刻正在上班。",
+      "tokens": [
+        "I",
+        "am",
+        "working",
+        "right",
+        "now"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L09-s-02",
+      "en": "She is eating lunch.",
+      "zh": "她正在吃午饭。",
+      "tokens": [
+        "She",
+        "is",
+        "eating",
+        "lunch"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L09-s-03",
+      "en": "They are watching a movie.",
+      "zh": "他们正在看电影。",
+      "tokens": [
+        "They",
+        "are",
+        "watching",
+        "a",
+        "movie"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L09-s-04",
+      "en": "He is making coffee now.",
+      "zh": "他现在正在煮咖啡。",
+      "tokens": [
+        "He",
+        "is",
+        "making",
+        "coffee",
+        "now"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L09-s-05",
+      "en": "We are having dinner.",
+      "zh": "我们正在吃晚饭。",
+      "tokens": [
+        "We",
+        "are",
+        "having",
+        "dinner"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L09-s-06",
+      "en": "My friend is running in the park.",
+      "zh": "我朋友正在公园里跑步。",
+      "tokens": [
+        "My",
+        "friend",
+        "is",
+        "running",
+        "in",
+        "the",
+        "park"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L09-s-07",
+      "en": "The baby is sitting on the floor.",
+      "zh": "宝宝正坐在地板上。",
+      "tokens": [
+        "The",
+        "baby",
+        "is",
+        "sitting",
+        "on",
+        "the",
+        "floor"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L09-s-08",
+      "en": "I am reading a good book.",
+      "zh": "我正在读一本好书。",
+      "tokens": [
+        "I",
+        "am",
+        "reading",
+        "a",
+        "good",
+        "book"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L09-s-09",
+      "en": "She is studying English now.",
+      "zh": "她现在正在学英语。",
+      "tokens": [
+        "She",
+        "is",
+        "studying",
+        "English",
+        "now"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L09-s-10",
+      "en": "You are talking too fast.",
+      "zh": "你说得太快了。",
+      "tokens": [
+        "You",
+        "are",
+        "talking",
+        "too",
+        "fast"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L09-s-11",
+      "en": "He is writing an email.",
+      "zh": "他正在写一封邮件。",
+      "tokens": [
+        "He",
+        "is",
+        "writing",
+        "an",
+        "email"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L09-s-12",
+      "en": "We are waiting for the bus.",
+      "zh": "我们正在等公交车。",
+      "tokens": [
+        "We",
+        "are",
+        "waiting",
+        "for",
+        "the",
+        "bus"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L09-s-13",
+      "en": "My mom is cooking dinner.",
+      "zh": "我妈正在做晚饭。",
+      "tokens": [
+        "My",
+        "mom",
+        "is",
+        "cooking",
+        "dinner"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L09-s-14",
+      "en": "They are listening to music.",
+      "zh": "他们正在听音乐。",
+      "tokens": [
+        "They",
+        "are",
+        "listening",
+        "to",
+        "music"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L09-s-15",
+      "en": "I am cleaning my room now.",
+      "zh": "我现在正在打扫房间。",
+      "tokens": [
+        "I",
+        "am",
+        "cleaning",
+        "my",
+        "room",
+        "now"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L09-s-16",
+      "en": "She is using her phone.",
+      "zh": "她正在用手机。",
+      "tokens": [
+        "She",
+        "is",
+        "using",
+        "her",
+        "phone"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L09-s-17",
+      "en": "The kids are swimming in the pool right now.",
+      "zh": "孩子们此刻正在泳池里游泳。",
+      "tokens": [
+        "The",
+        "kids",
+        "are",
+        "swimming",
+        "in",
+        "the",
+        "pool",
+        "right",
+        "now"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L09-s-18",
+      "en": "He is drinking a cup of coffee right now.",
+      "zh": "他此刻正在喝一杯咖啡。",
+      "tokens": [
+        "He",
+        "is",
+        "drinking",
+        "a",
+        "cup",
+        "of",
+        "coffee",
+        "right",
+        "now"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    }
+  ]
+}

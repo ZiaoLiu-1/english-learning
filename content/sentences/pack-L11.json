@@ -1,0 +1,168 @@
+{
+  "pack": "L11",
+  "status": "draft",
+  "sentences": [
+    {
+      "uid": "L11-s-01",
+      "en": "Are you ready?",
+      "zh": "你准备好了吗？",
+      "tokens": ["Are", "you", "ready"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L11-s-02",
+      "en": "Is she at home?",
+      "zh": "她在家吗？",
+      "tokens": ["Is", "she", "at", "home"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L11-s-03",
+      "en": "Are they busy today?",
+      "zh": "他们今天忙吗？",
+      "tokens": ["Are", "they", "busy", "today"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L11-s-04",
+      "en": "Is he working now?",
+      "zh": "他现在在忙吗？",
+      "tokens": ["Is", "he", "working", "now"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L11-s-05",
+      "en": "Do you like coffee?",
+      "zh": "你喜欢咖啡吗？",
+      "tokens": ["Do", "you", "like", "coffee"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L11-s-06",
+      "en": "Does she live near here?",
+      "zh": "她住在这附近吗？",
+      "tokens": ["Does", "she", "live", "near", "here"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L11-s-07",
+      "en": "Do they have a car?",
+      "zh": "他们有车吗？",
+      "tokens": ["Do", "they", "have", "a", "car"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L11-s-08",
+      "en": "Did you sleep well?",
+      "zh": "你睡得好吗？",
+      "tokens": ["Did", "you", "sleep", "well"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L11-s-09",
+      "en": "Did he call you last night?",
+      "zh": "他昨晚给你打电话了吗？",
+      "tokens": ["Did", "he", "call", "you", "last", "night"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L11-s-10",
+      "en": "Does your friend work here?",
+      "zh": "你朋友在这儿上班吗？",
+      "tokens": ["Does", "your", "friend", "work", "here"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L11-s-11",
+      "en": "Where is my phone?",
+      "zh": "我的手机在哪儿？",
+      "tokens": ["Where", "is", "my", "phone"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L11-s-12",
+      "en": "Who is that man?",
+      "zh": "那个男的是谁？",
+      "tokens": ["Who", "is", "that", "man"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L11-s-13",
+      "en": "Why are you so tired?",
+      "zh": "你为什么这么累？",
+      "tokens": ["Why", "are", "you", "so", "tired"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L11-s-14",
+      "en": "What are they doing?",
+      "zh": "他们在做什么？",
+      "tokens": ["What", "are", "they", "doing"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L11-s-15",
+      "en": "What do you want for lunch?",
+      "zh": "你午饭想吃什么？",
+      "tokens": ["What", "do", "you", "want", "for", "lunch"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L11-s-16",
+      "en": "Where does she work?",
+      "zh": "她在哪儿上班？",
+      "tokens": ["Where", "does", "she", "work"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L11-s-17",
+      "en": "When did you get home?",
+      "zh": "你什么时候到家的？",
+      "tokens": ["When", "did", "you", "get", "home"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L11-s-18",
+      "en": "How do you go to work?",
+      "zh": "你怎么去上班？",
+      "tokens": ["How", "do", "you", "go", "to", "work"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    }
+  ]
+}

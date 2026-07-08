@@ -1,0 +1,470 @@
+{
+  "lesson": "L10",
+  "status": "draft",
+  "exercises": [
+    {
+      "uid": "L10-mcq-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "实义动词（像 like、go）要变成否定，得怎么做？",
+        "options": [
+          "直接在动词前面加 not",
+          "借助动词 do/does/did，再加 not",
+          "在句子最后加 not"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "实义动词不能直接加 not，必须借助动词 do/does/did 帮忙；I not like it 是错的，要说 I don't like it。"
+    },
+    {
+      "uid": "L10-mcq-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "be 动词（am/is/are）要变成否定，得怎么做？",
+        "options": [
+          "直接在 be 后面加 not",
+          "要借 do 来帮忙加 not",
+          "把 be 去掉再加 not"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "be 动词最省事，直接在它后面加 not（She is not at home）；只有实义动词才要借 do/does/did。"
+    },
+    {
+      "uid": "L10-mcq-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "I ___ like coffee.（我不喜欢咖啡）空里该填什么？",
+        "options": [
+          "don't",
+          "doesn't",
+          "am not"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "主语 I 不是三单，一般现在时否定用 don't；doesn't 只配三单，am not 是 be 的否定，不能用来否定实义动词 like。"
+    },
+    {
+      "uid": "L10-mcq-04",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "He ___ eat meat.（他不吃肉）空里该填什么？",
+        "options": [
+          "don't",
+          "doesn't",
+          "didn't"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "主语 He 是三单，一般现在时否定用 doesn't；don't 配非三单，didn't 是过去时，这里说的是习惯不是过去。"
+    },
+    {
+      "uid": "L10-mcq-05",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "She doesn't ___ TV in the morning.（她早上不看电视）空里该填什么？",
+        "options": [
+          "watch",
+          "watches",
+          "watched"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "doesn't 后面动词一律用原形 watch；-s 已经跑到 does 上了，不能再写 watches，watched 是过去式也不对。"
+    },
+    {
+      "uid": "L10-mcq-06",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "We ___ go to school yesterday.（我们昨天没去上学）空里该填什么？",
+        "options": [
+          "don't",
+          "doesn't",
+          "didn't"
+        ]
+      },
+      "answer": {
+        "index": 2
+      },
+      "explain_zh": "yesterday 是过去的事，否定用 didn't（不管主语是谁）；don't、doesn't 都是一般现在时，配不上 yesterday。"
+    },
+    {
+      "uid": "L10-mcq-07",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "I didn't ___ breakfast this morning.（我今早没吃早饭）空里该填什么？",
+        "options": [
+          "eat",
+          "ate",
+          "eats"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "didn't 后面动词用原形 eat；过去式的变化由 did 扛走了，不能再写过去式 ate，也不加 -s。"
+    },
+    {
+      "uid": "L10-mcq-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "要表示“他不喜欢鱼”，下面哪一句是对的？",
+        "options": [
+          "He don't like fish.",
+          "He doesn't likes fish.",
+          "He doesn't like fish."
+        ]
+      },
+      "answer": {
+        "index": 2
+      },
+      "explain_zh": "三单用 doesn't，且后面动词用原形 like；He don't 主语三单该用 doesn't，doesn't likes 又多加了 -s。"
+    },
+    {
+      "uid": "L10-mcq-09",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "要表示“我昨天没看那部电影”，下面哪一句是对的？",
+        "options": [
+          "I didn't watch the movie yesterday.",
+          "I didn't watched the movie yesterday.",
+          "I don't watch the movie yesterday."
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "yesterday 是过去，用 didn't + 原形 watch；didn't watched 又用了过去式错，don't 是一般现在时和 yesterday 对不上。"
+    },
+    {
+      "uid": "L10-mcq-10",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "They ___ playing football right now.（他们此刻没在踢球）空里该填什么？",
+        "options": [
+          "aren't",
+          "don't",
+          "didn't"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "这是现在进行时（be + 动词-ing），否定直接在 be 后加 not，are not = aren't；don't、didn't 是给实义动词用的，配不上 playing。"
+    },
+    {
+      "uid": "L10-cloze-01",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "I ___ like this song.（我不喜欢这首歌，一般现在时）",
+        "blanks": [
+          {
+            "accept": [
+              "don't"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "实义动词 like 变否定要借助动词；主语 I 非三单、一般现在时，用 don't（= do not）。"
+    },
+    {
+      "uid": "L10-cloze-02",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "She ___ eat meat.（她不吃肉）",
+        "blanks": [
+          {
+            "accept": [
+              "doesn't"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 She 是三单、一般现在时，否定用 doesn't（= does not）；后面 eat 保持原形。"
+    },
+    {
+      "uid": "L10-cloze-03",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "We ___ go to the gym yesterday.（我们昨天没去健身房）",
+        "blanks": [
+          {
+            "accept": [
+              "didn't"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "yesterday 是过去的事，否定用 didn't（= did not），不管主语是谁；后面 go 用原形。"
+    },
+    {
+      "uid": "L10-cloze-04",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "He doesn't ___ coffee.（他不喝咖啡，用 drink）",
+        "blanks": [
+          {
+            "accept": [
+              "drink"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "doesn't 后面动词一律用原形，drink 不加 -s；-s 已经在 does 上了，不能写 drinks。"
+    },
+    {
+      "uid": "L10-cloze-05",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "I didn't ___ my homework last night.（我昨晚没做作业，用 do）",
+        "blanks": [
+          {
+            "accept": [
+              "do"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "didn't 后面用原形 do；过去式的变化由 did 扛走了，主动词还原，不写 did 也不写 done。"
+    },
+    {
+      "uid": "L10-cloze-06",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "I ___ ___ fish.（我不吃鱼，一般现在时，用 eat）",
+        "blanks": [
+          {
+            "accept": [
+              "don't"
+            ]
+          },
+          {
+            "accept": [
+              "eat"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 I 非三单、一般现在时，否定用 don't；后面动词用原形 eat，合起来 I don't eat fish。"
+    },
+    {
+      "uid": "L10-cloze-07",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "She ___ ___ to work on Sundays.（她周日不上班，用 go）",
+        "blanks": [
+          {
+            "accept": [
+              "doesn't"
+            ]
+          },
+          {
+            "accept": [
+              "go"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 She 三单、on Sundays 表示习惯用一般现在时，否定用 doesn't；后面动词用原形 go，不是 goes。"
+    },
+    {
+      "uid": "L10-cloze-08",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "We ___ ___ dinner at home last night.（我们昨晚没在家吃晚饭，用 have）",
+        "blanks": [
+          {
+            "accept": [
+              "didn't"
+            ]
+          },
+          {
+            "accept": [
+              "have"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "last night 是过去，否定用 didn't；后面动词还原成原形 have，不用过去式 had。"
+    },
+    {
+      "uid": "L10-correct-01",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "I",
+          "not",
+          "like",
+          "coffee"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "don't"
+        ]
+      },
+      "explain_zh": "实义动词 like 不能直接加 not 变否定，必须借助动词；一般现在时非三单用 don't，正确是 I don't like coffee。"
+    },
+    {
+      "uid": "L10-correct-02",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "She",
+          "not",
+          "at",
+          "home"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "is not"
+        ]
+      },
+      "explain_zh": "这句没有实义动词，只是说“在家”，要用 be 动词；She 三单用 is，否定在 is 后加 not，正确是 She is not at home。"
+    },
+    {
+      "uid": "L10-correct-03",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "He",
+          "doesn't",
+          "likes",
+          "fish"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "like"
+        ]
+      },
+      "explain_zh": "doesn't 后面动词一律用原形，-s 已经跑到 does 上了；likes 要还原成 like，正确是 He doesn't like fish。"
+    },
+    {
+      "uid": "L10-correct-04",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "I",
+          "didn't",
+          "went",
+          "to",
+          "work"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "go"
+        ]
+      },
+      "explain_zh": "过去时的变化由 did 扛走了，didn't 后面动词要还原成原形 go，不能再用过去式 went，正确是 I didn't go to work。"
+    },
+    {
+      "uid": "L10-correct-05",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "He",
+          "don't",
+          "eat",
+          "breakfast"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "doesn't"
+        ]
+      },
+      "explain_zh": "主语 He 是三单，一般现在时否定要用 doesn't，不是 don't；正确是 He doesn't eat breakfast。"
+    },
+    {
+      "uid": "L10-correct-06",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "They",
+          "doesn't",
+          "like",
+          "it"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "don't"
+        ]
+      },
+      "explain_zh": "They 不止一个、不是三单，一般现在时否定用 don't；doesn't 只配三单（他/她/它这一个），正确是 They don't like it。"
+    },
+    {
+      "uid": "L10-correct-07",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "He",
+          "is",
+          "not",
+          "play",
+          "basketball",
+          "now"
+        ]
+      },
+      "answer": {
+        "error_index": 3,
+        "corrections": [
+          "playing"
+        ]
+      },
+      "explain_zh": "这是现在进行时的否定：be + not + 动词-ing；not 后面的动词要用 -ing 形式 playing，不是原形 play，正确是 He is not playing basketball now。"
+    }
+  ]
+}

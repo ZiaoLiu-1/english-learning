@@ -1,0 +1,298 @@
+{
+  "pack": "L08",
+  "status": "draft",
+  "sentences": [
+    {
+      "uid": "L08-s-01",
+      "en": "I worked late yesterday.",
+      "zh": "我昨天工作到很晚。",
+      "tokens": [
+        "I",
+        "worked",
+        "late",
+        "yesterday"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L08-s-02",
+      "en": "She went home early.",
+      "zh": "她很早就回家了。",
+      "tokens": [
+        "She",
+        "went",
+        "home",
+        "early"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L08-s-03",
+      "en": "We watched a movie last night.",
+      "zh": "我们昨晚看了场电影。",
+      "tokens": [
+        "We",
+        "watched",
+        "a",
+        "movie",
+        "last",
+        "night"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L08-s-04",
+      "en": "He got a new job last month.",
+      "zh": "他上个月找到了新工作。",
+      "tokens": [
+        "He",
+        "got",
+        "a",
+        "new",
+        "job",
+        "last",
+        "month"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L08-s-05",
+      "en": "They played football on Sunday.",
+      "zh": "他们周日踢了足球。",
+      "tokens": [
+        "They",
+        "played",
+        "football",
+        "on",
+        "Sunday"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L08-s-06",
+      "en": "My friend made dinner for us.",
+      "zh": "我朋友给我们做了晚饭。",
+      "tokens": [
+        "My",
+        "friend",
+        "made",
+        "dinner",
+        "for",
+        "us"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L08-s-07",
+      "en": "I saw your sister yesterday.",
+      "zh": "我昨天看见你姐了。",
+      "tokens": [
+        "I",
+        "saw",
+        "your",
+        "sister",
+        "yesterday"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L08-s-08",
+      "en": "She studied English last night.",
+      "zh": "她昨晚学了英语。",
+      "tokens": [
+        "She",
+        "studied",
+        "English",
+        "last",
+        "night"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L08-s-09",
+      "en": "We had a great time.",
+      "zh": "我们玩得很开心。",
+      "tokens": [
+        "We",
+        "had",
+        "a",
+        "great",
+        "time"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L08-s-10",
+      "en": "He liked the movie a lot.",
+      "zh": "他很喜欢那部电影。",
+      "tokens": [
+        "He",
+        "liked",
+        "the",
+        "movie",
+        "a",
+        "lot"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L08-s-11",
+      "en": "They lived in Beijing last year.",
+      "zh": "他们去年住在北京。",
+      "tokens": [
+        "They",
+        "lived",
+        "in",
+        "Beijing",
+        "last",
+        "year"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L08-s-12",
+      "en": "I ate breakfast at home.",
+      "zh": "我在家吃的早饭。",
+      "tokens": [
+        "I",
+        "ate",
+        "breakfast",
+        "at",
+        "home"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L08-s-13",
+      "en": "My mom took the early bus.",
+      "zh": "我妈坐了早班车。",
+      "tokens": [
+        "My",
+        "mom",
+        "took",
+        "the",
+        "early",
+        "bus"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L08-s-14",
+      "en": "She came to my house yesterday.",
+      "zh": "她昨天来我家了。",
+      "tokens": [
+        "She",
+        "came",
+        "to",
+        "my",
+        "house",
+        "yesterday"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L08-s-15",
+      "en": "He did his homework after dinner.",
+      "zh": "他晚饭后做了作业。",
+      "tokens": [
+        "He",
+        "did",
+        "his",
+        "homework",
+        "after",
+        "dinner"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L08-s-16",
+      "en": "I worked in a bank, and my sister worked in a school.",
+      "zh": "我在银行工作过，我姐在学校工作过。",
+      "tokens": [
+        "I",
+        "worked",
+        "in",
+        "a",
+        "bank",
+        "and",
+        "my",
+        "sister",
+        "worked",
+        "in",
+        "a",
+        "school"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L08-s-17",
+      "en": "We went to the mall and had lunch there.",
+      "zh": "我们去了商场，在那儿吃了午饭。",
+      "tokens": [
+        "We",
+        "went",
+        "to",
+        "the",
+        "mall",
+        "and",
+        "had",
+        "lunch",
+        "there"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    },
+    {
+      "uid": "L08-s-18",
+      "en": "She called me last night, but I missed it.",
+      "zh": "她昨晚给我打电话了，可我没接到。",
+      "tokens": [
+        "She",
+        "called",
+        "me",
+        "last",
+        "night",
+        "but",
+        "I",
+        "missed",
+        "it"
+      ],
+      "alt": [],
+      "gp_codes": [],
+      "level": 3
+    }
+  ]
+}

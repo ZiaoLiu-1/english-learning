@@ -1,0 +1,471 @@
+{
+  "lesson": "L08",
+  "status": "draft",
+  "exercises": [
+    {
+      "uid": "L08-mcq-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "一般过去时用来说什么？",
+        "options": [
+          "经常做、习惯性的事",
+          "过去发生、现在已经结束的事",
+          "此刻正在做的事"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "一般过去时说的是过去发生、已经结束的动作；经常/习惯的事用一般现在时，此刻正在做的不是它管的。"
+    },
+    {
+      "uid": "L08-mcq-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "Yesterday I ___ late.（昨天我工作到很晚，用 work）空里该填什么？",
+        "options": [
+          "work",
+          "worked",
+          "works"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "yesterday 是过去，work 是规则动词，过去式加 -ed 变 worked；work 是原形没变，works 是现在时三单形式。"
+    },
+    {
+      "uid": "L08-mcq-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "She ___ home early yesterday.（她昨天很早回的家，用 go）空里该填什么？",
+        "options": [
+          "goed",
+          "went",
+          "goes"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "go 是不规则动词，过去式是背下来的 went；goed 是误套 -ed 造的错词，goes 是现在时。"
+    },
+    {
+      "uid": "L08-mcq-04",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "He ___ in a bank last year.（他去年在一家银行上班，用 work）空里该填什么？",
+        "options": [
+          "work",
+          "works",
+          "worked"
+        ]
+      },
+      "answer": {
+        "index": 2
+      },
+      "explain_zh": "last year 是过去，用过去式 worked；过去时不看三单，He 也不加 -s，所以不是 works，work 又没变过去式。"
+    },
+    {
+      "uid": "L08-mcq-05",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "We ___ a great time last night.（昨晚我们玩得很开心，用 have）空里该填什么？",
+        "options": [
+          "have",
+          "haved",
+          "had"
+        ]
+      },
+      "answer": {
+        "index": 2
+      },
+      "explain_zh": "have 是不规则动词，过去式是 had，不加 -ed；没有 haved 这个词，have 又没变过去式。"
+    },
+    {
+      "uid": "L08-mcq-06",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "I ___ your brother at the mall yesterday.（昨天我在商场见到你哥了，用 see）空里该填什么？",
+        "options": [
+          "see",
+          "saw",
+          "seed"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "see 是不规则动词，过去式是 saw；seed 是误加 -ed 造的错词，see 没变过去式。"
+    },
+    {
+      "uid": "L08-mcq-07",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "She ___ English last night.（她昨晚学了英语，用 study）空里该填什么？",
+        "options": [
+          "studyed",
+          "studied",
+          "study"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "study 是规则动词，“辅音+y”结尾把 y 变 -ied，过去式是 studied；studyed 拼写错，study 没变过去式。"
+    },
+    {
+      "uid": "L08-mcq-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "We ___ dinner at a new place last night.（昨晚我们在一家新店吃的晚饭，用 eat）空里该填什么？",
+        "options": [
+          "eated",
+          "ate",
+          "eat"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "eat 是不规则动词，过去式是 ate；eated 是误加 -ed 造的错词，eat 没变过去式。"
+    },
+    {
+      "uid": "L08-mcq-09",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "下面哪一句是对的？",
+        "options": [
+          "Yesterday he go to work.",
+          "Yesterday he goes to work.",
+          "Yesterday he went to work."
+        ]
+      },
+      "answer": {
+        "index": 2
+      },
+      "explain_zh": "yesterday 是过去，动词要用过去式；go 是不规则动词过去式为 went。go 是原形、goes 是现在时三单，都不能表示过去。"
+    },
+    {
+      "uid": "L08-mcq-10",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "下面哪一句是对的？",
+        "options": [
+          "She liked the movie last night.",
+          "She likeed the movie last night.",
+          "She like the movie last night."
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "like 词尾是 e，过去式只补一个 d 变 liked；likeed 多写了一个 e，like 没变过去式。"
+    },
+    {
+      "uid": "L08-cloze-01",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "We ___ hard last week.（努力干，用 work）",
+        "blanks": [
+          {
+            "accept": [
+              "worked"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "last week 是过去，work 是规则动词，过去式加 -ed 变 worked。"
+    },
+    {
+      "uid": "L08-cloze-02",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "I ___ home late last night.（回，用 go）",
+        "blanks": [
+          {
+            "accept": [
+              "went"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "last night 是过去，go 是不规则动词，过去式是 went，不是 goed。"
+    },
+    {
+      "uid": "L08-cloze-03",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "She ___ a busy day yesterday.（过、有，用 have）",
+        "blanks": [
+          {
+            "accept": [
+              "had"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "yesterday 是过去，have 是不规则动词，过去式是 had，不加 -ed。"
+    },
+    {
+      "uid": "L08-cloze-04",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "They ___ a good movie last night.（看见、看，用 see）",
+        "blanks": [
+          {
+            "accept": [
+              "saw"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "last night 是过去，see 是不规则动词，过去式是 saw，不是 seed。"
+    },
+    {
+      "uid": "L08-cloze-05",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "He ___ in a small hotel last year.（住，用 live）",
+        "blanks": [
+          {
+            "accept": [
+              "lived"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "last year 是过去，live 是规则动词，词尾是 e，过去式只补 d 变 lived。"
+    },
+    {
+      "uid": "L08-cloze-06",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "I ___ English at home last night.（学，用 study）",
+        "blanks": [
+          {
+            "accept": [
+              "studied"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "last night 是过去，study 是规则动词，“辅音+y”把 y 变 -ied，过去式是 studied。"
+    },
+    {
+      "uid": "L08-cloze-07",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "He ___ coffee, and they ___ tea this morning.（都用 make）",
+        "blanks": [
+          {
+            "accept": [
+              "made"
+            ]
+          },
+          {
+            "accept": [
+              "made"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "make 是不规则动词，过去式是 made；过去时不分主语，He 和 they 用的是同一个形式 made。"
+    },
+    {
+      "uid": "L08-cloze-08",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "Last weekend we ___ a movie and ___ dinner out.（看，用 see；吃，用 eat）",
+        "blanks": [
+          {
+            "accept": [
+              "saw"
+            ]
+          },
+          {
+            "accept": [
+              "ate"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "last weekend 是过去；see 和 eat 都是不规则动词，过去式分别是 saw、ate，不加 -ed。"
+    },
+    {
+      "uid": "L08-correct-01",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Yesterday",
+          "I",
+          "go",
+          "to",
+          "work"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "went"
+        ]
+      },
+      "explain_zh": "yesterday 表明是过去，动词要用过去式；go 是不规则动词过去式为 went，正确是 Yesterday I went to work。"
+    },
+    {
+      "uid": "L08-correct-02",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "We",
+          "work",
+          "late",
+          "last",
+          "night"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "worked"
+        ]
+      },
+      "explain_zh": "last night 是过去，work 是规则动词，过去式加 -ed 变 worked，正确是 We worked late last night。"
+    },
+    {
+      "uid": "L08-correct-03",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "She",
+          "eated",
+          "lunch",
+          "at",
+          "home"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "ate"
+        ]
+      },
+      "explain_zh": "eat 是不规则动词，过去式是 ate，不能加 -ed 造出 eated，正确是 She ate lunch at home。"
+    },
+    {
+      "uid": "L08-correct-04",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "He",
+          "goed",
+          "home",
+          "early"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "went"
+        ]
+      },
+      "explain_zh": "go 是不规则动词，过去式是背下来的 went，不是 goed，正确是 He went home early。"
+    },
+    {
+      "uid": "L08-correct-05",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "My",
+          "friend",
+          "works",
+          "here",
+          "last",
+          "year"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "worked"
+        ]
+      },
+      "explain_zh": "last year 是过去，动词要用过去式 worked；过去时不看三单，不能用现在时的 works，正确是 My friend worked here last year。"
+    },
+    {
+      "uid": "L08-correct-06",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "We",
+          "haved",
+          "a",
+          "good",
+          "time",
+          "last",
+          "night"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "had"
+        ]
+      },
+      "explain_zh": "have 是不规则动词，过去式是 had，不能加 -ed 造出 haved，正确是 We had a good time last night。"
+    },
+    {
+      "uid": "L08-correct-07",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "She",
+          "study",
+          "English",
+          "last",
+          "night"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "studied"
+        ]
+      },
+      "explain_zh": "last night 是过去，study 是规则动词，“辅音+y”变 -ied，过去式是 studied，正确是 She studied English last night。"
+    }
+  ]
+}

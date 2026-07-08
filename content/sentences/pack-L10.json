@@ -1,0 +1,168 @@
+{
+  "pack": "L10",
+  "status": "draft",
+  "sentences": [
+    {
+      "uid": "L10-s-01",
+      "en": "I don't want dinner now.",
+      "zh": "我现在不想吃晚饭。",
+      "tokens": ["I", "don't", "want", "dinner", "now"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L10-s-02",
+      "en": "He doesn't drink milk.",
+      "zh": "他不喝牛奶。",
+      "tokens": ["He", "doesn't", "drink", "milk"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L10-s-03",
+      "en": "She doesn't work on weekends.",
+      "zh": "她周末不上班。",
+      "tokens": ["She", "doesn't", "work", "on", "weekends"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L10-s-04",
+      "en": "We don't have class today.",
+      "zh": "我们今天没有课。",
+      "tokens": ["We", "don't", "have", "class", "today"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L10-s-05",
+      "en": "They don't live here.",
+      "zh": "他们不住在这儿。",
+      "tokens": ["They", "don't", "live", "here"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L10-s-06",
+      "en": "My friend doesn't like fish.",
+      "zh": "我朋友不喜欢鱼。",
+      "tokens": ["My", "friend", "doesn't", "like", "fish"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L10-s-07",
+      "en": "I didn't sleep well last night.",
+      "zh": "我昨晚没睡好。",
+      "tokens": ["I", "didn't", "sleep", "well", "last", "night"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L10-s-08",
+      "en": "She didn't call me last night.",
+      "zh": "她昨晚没给我打电话。",
+      "tokens": ["She", "didn't", "call", "me", "last", "night"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L10-s-09",
+      "en": "We didn't watch the movie.",
+      "zh": "我们没看那部电影。",
+      "tokens": ["We", "didn't", "watch", "the", "movie"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L10-s-10",
+      "en": "He didn't finish his homework.",
+      "zh": "他没做完作业。",
+      "tokens": ["He", "didn't", "finish", "his", "homework"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L10-s-11",
+      "en": "I'm not busy today.",
+      "zh": "我今天不忙。",
+      "tokens": ["I'm", "not", "busy", "today"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L10-s-12",
+      "en": "She isn't at home right now.",
+      "zh": "她此刻不在家。",
+      "tokens": ["She", "isn't", "at", "home", "right", "now"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L10-s-13",
+      "en": "He isn't a student.",
+      "zh": "他不是学生。",
+      "tokens": ["He", "isn't", "a", "student"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L10-s-14",
+      "en": "They aren't ready yet.",
+      "zh": "他们还没准备好。",
+      "tokens": ["They", "aren't", "ready", "yet"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    },
+    {
+      "uid": "L10-s-15",
+      "en": "I'm not watching TV now.",
+      "zh": "我现在没在看电视。",
+      "tokens": ["I'm", "not", "watching", "TV", "now"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L10-s-16",
+      "en": "The kids aren't sleeping.",
+      "zh": "孩子们没在睡觉。",
+      "tokens": ["The", "kids", "aren't", "sleeping"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L10-s-17",
+      "en": "We aren't working today.",
+      "zh": "我们今天没上班。",
+      "tokens": ["We", "aren't", "working", "today"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 2
+    },
+    {
+      "uid": "L10-s-18",
+      "en": "My phone isn't working.",
+      "zh": "我的手机不好使了。",
+      "tokens": ["My", "phone", "isn't", "working"],
+      "alt": [],
+      "gp_codes": [],
+      "level": 1
+    }
+  ]
+}

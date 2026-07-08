@@ -1,0 +1,467 @@
+{
+  "lesson": "L11",
+  "status": "draft",
+  "exercises": [
+    {
+      "uid": "L11-mcq-01",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "You are busy. 要变成一般疑问句（能用 yes/no 回答），该怎么做？",
+        "options": [
+          "把 are 提到主语 you 前面：Are you busy?",
+          "在句首加 do：Do you are busy?",
+          "在句尾加 do：You are busy do?"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "be 动词的疑问句最省事，直接把 be 提到主语前面 Are you busy；be 本身就能当动词，不用再借 do。"
+    },
+    {
+      "uid": "L11-mcq-02",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "You like tea.（like 是实义动词）要变成一般疑问句，该怎么做？",
+        "options": [
+          "直接把 like 提到句首：Like you tea?",
+          "借助动词 do 提到句首：Do you like tea?",
+          "在句尾加 not"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "实义动词不能自己往前挪，要借助动词 do/does/did 提到句首，主动词回原形；正确是 Do you like tea。"
+    },
+    {
+      "uid": "L11-mcq-03",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "___ you have a car?（你有车吗，一般现在时）空里该填什么？",
+        "options": [
+          "Do",
+          "Does",
+          "Are"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "主语 you 不是三单、一般现在时，实义动词 have 变疑问借 Do；Does 只配三单，Are 是 be 不能帮实义动词发问。"
+    },
+    {
+      "uid": "L11-mcq-04",
+      "type": "mcq",
+      "difficulty": 1,
+      "payload": {
+        "question": "___ she work on weekends?（她周末上班吗）空里该填什么？",
+        "options": [
+          "Do",
+          "Does",
+          "Is"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "主语 she 是三单、一般现在时，用 Does；-s 交给 does，work 回原形。Do 配非三单，Is 是 be。"
+    },
+    {
+      "uid": "L11-mcq-05",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "___ they arrive last night?（他们昨晚到了吗）空里该填什么？",
+        "options": [
+          "Do",
+          "Does",
+          "Did"
+        ]
+      },
+      "answer": {
+        "index": 2
+      },
+      "explain_zh": "last night 是过去，不管主语是谁都用 Did；Do、Does 是一般现在时，配不上 last night。"
+    },
+    {
+      "uid": "L11-mcq-06",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "Does he ___ coffee every morning?（他每天早上喝咖啡吗）空里该填什么？",
+        "options": [
+          "drink",
+          "drinks",
+          "drank"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "Does 一出来，主动词回原形 drink；-s 已经在 does 上了不写 drinks，drank 是过去式也不对。"
+    },
+    {
+      "uid": "L11-mcq-07",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "Did you ___ to the meeting?（你去开会了吗）空里该填什么？",
+        "options": [
+          "go",
+          "went",
+          "goes"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "Did 一出来，主动词回原形 go；过去式交给了 did 不写 went，也不加 -s 写 goes。"
+    },
+    {
+      "uid": "L11-mcq-08",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "想问“她在哪儿”（用 where），下面哪句对？",
+        "options": [
+          "Where she is?",
+          "Where is she?",
+          "Where does she?"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "疑问词 Where 放句首，后面把 be（is）提到主语 she 前面 Where is she；Where she is 没动位置，还是陈述语序。"
+    },
+    {
+      "uid": "L11-mcq-09",
+      "type": "mcq",
+      "difficulty": 2,
+      "payload": {
+        "question": "___ do you go to work?（你怎么去上班）空里该填哪个疑问词？",
+        "options": [
+          "How",
+          "What",
+          "Who"
+        ]
+      },
+      "answer": {
+        "index": 0
+      },
+      "explain_zh": "问“怎样、用什么方式”用 how；what 问“什么”，who 问“谁”，都对不上“怎么去”。"
+    },
+    {
+      "uid": "L11-mcq-10",
+      "type": "mcq",
+      "difficulty": 3,
+      "payload": {
+        "question": "想问“你为什么那么说”，下面哪句对？",
+        "options": [
+          "Why you say that?",
+          "Why do you say that?",
+          "Why you do say that?"
+        ]
+      },
+      "answer": {
+        "index": 1
+      },
+      "explain_zh": "特殊疑问句里实义动词 say 也要借助动词：Why + do + 主语 + 原形，Why do you say that；Why you say that 漏了助动词，正是最常见的错。"
+    },
+    {
+      "uid": "L11-cloze-01",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "___ you like this song?（你喜欢这首歌吗？一般现在时，用助动词）",
+        "blanks": [
+          {
+            "accept": [
+              "Do"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "实义动词 like 变疑问要借助动词；主语 you 非三单、一般现在时，用 Do。"
+    },
+    {
+      "uid": "L11-cloze-02",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "___ she live near here?（她住在这附近吗？一般现在时）",
+        "blanks": [
+          {
+            "accept": [
+              "Does"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "主语 she 是三单、一般现在时，实义动词变疑问用 Does；后面 live 回原形。"
+    },
+    {
+      "uid": "L11-cloze-03",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "___ they win the game?（他们赢了那场比赛吗？昨天的事，过去时）",
+        "blanks": [
+          {
+            "accept": [
+              "Did"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "是过去的事，不管主语是谁都用 Did；后面 win 回原形。"
+    },
+    {
+      "uid": "L11-cloze-04",
+      "type": "cloze",
+      "difficulty": 1,
+      "payload": {
+        "text": "___ you tired now?（你现在累吗？用 be 动词）",
+        "blanks": [
+          {
+            "accept": [
+              "Are"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "tired 是形容词、句子用 be，主语 you 用 are；be 的疑问直接把 are 提到主语前面。"
+    },
+    {
+      "uid": "L11-cloze-05",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "Where ___ your keys?（你的钥匙在哪儿？钥匙不止一把，用 be）",
+        "blanks": [
+          {
+            "accept": [
+              "are"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "keys 是复数、用 be，疑问词 Where 后面把 be 提到主语前面；复数主语用 are。"
+    },
+    {
+      "uid": "L11-cloze-06",
+      "type": "cloze",
+      "difficulty": 2,
+      "payload": {
+        "text": "What ___ you ___ for breakfast?（你早饭吃什么？一般现在时，第二空用 eat）",
+        "blanks": [
+          {
+            "accept": [
+              "do"
+            ]
+          },
+          {
+            "accept": [
+              "eat"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "疑问词 What 后面像一般疑问句那样倒装：主语 you 非三单借 do，主动词回原形 eat。"
+    },
+    {
+      "uid": "L11-cloze-07",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "When ___ the store ___?（这家店什么时候开门？一般现在时，第二空用 open）",
+        "blanks": [
+          {
+            "accept": [
+              "does"
+            ]
+          },
+          {
+            "accept": [
+              "open"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "the store 是三单、一般现在时，When 后面借 does；主动词回原形 open，不写 opens。"
+    },
+    {
+      "uid": "L11-cloze-08",
+      "type": "cloze",
+      "difficulty": 3,
+      "payload": {
+        "text": "Why ___ he ___ so early?（他为什么那么早走？过去的事，第二空用 leave）",
+        "blanks": [
+          {
+            "accept": [
+              "did"
+            ]
+          },
+          {
+            "accept": [
+              "leave"
+            ]
+          }
+        ]
+      },
+      "answer": {},
+      "explain_zh": "是过去的事，Why 后面借 did；主动词回原形 leave，不用过去式 left。"
+    },
+    {
+      "uid": "L11-correct-01",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Why",
+          "you",
+          "say",
+          "that"
+        ]
+      },
+      "answer": {
+        "error_index": 1,
+        "corrections": [
+          "do you"
+        ]
+      },
+      "explain_zh": "say 是实义动词，疑问要借助动词；Why 后面得像一般疑问句那样摆 do you，漏了 do 正是最常见的错，正确是 Why do you say that。"
+    },
+    {
+      "uid": "L11-correct-02",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Does",
+          "he",
+          "likes",
+          "coffee"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "like"
+        ]
+      },
+      "explain_zh": "does 一出来，-s 就交给它了，后面主动词回原形；likes 要还原成 like，正确是 Does he like coffee。"
+    },
+    {
+      "uid": "L11-correct-03",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Did",
+          "you",
+          "went",
+          "home"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "go"
+        ]
+      },
+      "explain_zh": "过去时的变化由 did 扛走了，did 后面动词还原成原形 go，不能再用过去式 went，正确是 Did you go home。"
+    },
+    {
+      "uid": "L11-correct-04",
+      "type": "correct",
+      "difficulty": 2,
+      "payload": {
+        "tokens": [
+          "Do",
+          "he",
+          "like",
+          "it"
+        ]
+      },
+      "answer": {
+        "error_index": 0,
+        "corrections": [
+          "Does"
+        ]
+      },
+      "explain_zh": "主语 he 是三单，一般现在时的疑问要用 Does，不是 Do；正确是 Does he like it。"
+    },
+    {
+      "uid": "L11-correct-05",
+      "type": "correct",
+      "difficulty": 1,
+      "payload": {
+        "tokens": [
+          "Is",
+          "you",
+          "tired"
+        ]
+      },
+      "answer": {
+        "error_index": 0,
+        "corrections": [
+          "Are"
+        ]
+      },
+      "explain_zh": "主语 you 的 be 动词是 are，不是 is；be 的疑问把 are 提到主语前面，正确是 Are you tired。"
+    },
+    {
+      "uid": "L11-correct-06",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "When",
+          "did",
+          "you",
+          "came"
+        ]
+      },
+      "answer": {
+        "error_index": 3,
+        "corrections": [
+          "come"
+        ]
+      },
+      "explain_zh": "did 后面主动词一律回原形 come，过去式交给了 did；不能再用过去式 came，正确是 When did you come。"
+    },
+    {
+      "uid": "L11-correct-07",
+      "type": "correct",
+      "difficulty": 3,
+      "payload": {
+        "tokens": [
+          "What",
+          "time",
+          "do",
+          "he",
+          "leave"
+        ]
+      },
+      "answer": {
+        "error_index": 2,
+        "corrections": [
+          "does"
+        ]
+      },
+      "explain_zh": "主语 he 是三单，一般现在时该借 does，不是 do；正确是 What time does he leave。"
+    }
+  ]
+}
