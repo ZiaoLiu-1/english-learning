@@ -23,6 +23,34 @@ export class ApiRequestError extends Error {
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const apiUrl = (path: string) => `${BASE_PATH}${path}`;
 
+async function getJson<T>(url: string): Promise<T> {
+  let res: Response;
+  try {
+    res = await fetch(url);
+  } catch {
+    throw new ApiRequestError({
+      code: "network_error",
+      message_zh: "网络好像断开了，检查一下网络再试试。",
+    });
+  }
+  let json: unknown;
+  try {
+    json = await res.json();
+  } catch {
+    throw new ApiRequestError({
+      code: "bad_response",
+      message_zh: "服务器返回的内容有点奇怪，请重试。",
+    });
+  }
+  if (!res.ok) {
+    const err = (json as { error?: ApiError }).error;
+    throw new ApiRequestError(
+      err ?? { code: "unknown_error", message_zh: "出了点问题，请重试。" },
+    );
+  }
+  return json as T;
+}
+
 async function postJson<T>(url: string, body: unknown): Promise<T> {
   let res: Response;
   try {
@@ -102,4 +130,16 @@ export function submitExercise(
     used_hint: opts?.usedHint ?? false,
     ms_used: opts?.msUsed,
   });
+}
+
+export interface QueueExercise {
+  id: number;
+  uid: string;
+  type: string;
+  payloadJson: unknown;
+  explainZh: string | null;
+}
+
+export function getReviewQueue(): Promise<{ exercises: QueueExercise[] }> {
+  return getJson<{ exercises: QueueExercise[] }>(apiUrl("/api/srs/queue"));
 }
