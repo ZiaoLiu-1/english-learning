@@ -12,7 +12,7 @@ export default function SentenceTyper({
   onCompleted: () => void;
 }) {
   const [typingState, setTypingState] = useState<TypingState>(() =>
-    startTyping(sentence.tokensJson),
+    startTyping(sentence.tokensJson, sentence.alt),
   );
   const [typed, setTyped] = useState<string[]>([]);
   const [input, setInput] = useState("");

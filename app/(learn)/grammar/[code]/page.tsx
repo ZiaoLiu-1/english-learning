@@ -2,9 +2,22 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getCurrentUser } from "@/lib/auth/current-user";
 import { getGrammarLesson } from "@/lib/lessons";
+import type { AltRule } from "@/lib/content/schema";
 import { splitParagraphs } from "@/lib/ui/text";
 import LessonRunner from "./lesson-runner";
 import type { ExerciseView, SentenceView } from "./types";
+
+/**
+ * Never ship the answer key to the client. cloze answers live in
+ * payload.blanks[].accept — strip them, keeping only the blank count so the UI
+ * can render the right number of inputs. mcq/correct keep their payload (the
+ * key is in answerJson, which we already never send).
+ */
+function stripAnswers(type: string, payload: unknown): unknown {
+  if (type !== "cloze") return payload;
+  const p = payload as { text: string; blanks: unknown[] };
+  return { text: p.text, blanks: p.blanks.map(() => ({ accept: [] as string[] })) };
+}
 
 export default async function GrammarLessonPage({
   params,
@@ -45,7 +58,7 @@ export default async function GrammarLessonPage({
     id: e.id,
     uid: e.uid,
     type: e.type,
-    payloadJson: e.payloadJson,
+    payloadJson: stripAnswers(e.type, e.payloadJson),
     explainZh: e.explainZh,
   }));
 
@@ -55,6 +68,7 @@ export default async function GrammarLessonPage({
     en: s.en,
     zh: s.zh,
     tokensJson: s.tokensJson,
+    alt: (s.altJson ?? []) as AltRule[],
     audioPath: s.audioPath,
   }));
 

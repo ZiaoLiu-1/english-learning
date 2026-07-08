@@ -1,8 +1,10 @@
 /**
- * Client-side shapes for a lesson's exercises/sentences. Deliberately omit
- * answerJson — grading happens server-side (POST /api/exercises/submit);
- * the client never needs the answer key.
+ * Client-side shapes for a lesson's exercises/sentences. Deliberately omit the
+ * answer key — grading happens server-side (POST /api/exercises/submit). That
+ * means answerJson is never sent, AND cloze `accept` lists are stripped (the
+ * client only needs the blank count to render inputs).
  */
+import type { AltRule } from "@/lib/content/schema";
 
 export interface McqPayload {
   question: string;
@@ -11,6 +13,7 @@ export interface McqPayload {
 
 export interface ClozePayload {
   text: string;
+  /** answers stripped; length = number of inputs to render */
   blanks: { accept: string[] }[];
 }
 
@@ -32,5 +35,6 @@ export interface SentenceView {
   en: string;
   zh: string;
   tokensJson: string[];
+  alt: AltRule[];
   audioPath: string | null;
 }

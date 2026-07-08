@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
+import { apiError } from "@/lib/api";
 import { getCurrentUser } from "@/lib/auth/current-user";
 import { db } from "@/lib/db";
 import { attempts } from "@/drizzle/schema";
@@ -15,37 +16,19 @@ const body = z.object({
 
 export async function POST(req: Request) {
   const user = await getCurrentUser();
-  if (!user) {
-    return NextResponse.json(
-      { error: { code: "unauthorized", message_zh: "请先登录" } },
-      { status: 401 },
-    );
-  }
+  if (!user) return apiError("unauthorized", "请先登录", 401);
+
   const parsed = body.safeParse(await req.json().catch(() => null));
-  if (!parsed.success) {
-    return NextResponse.json(
-      { error: { code: "bad_request", message_zh: "提交内容格式不对" } },
-      { status: 400 },
-    );
-  }
+  if (!parsed.success) return apiError("bad_request", "提交内容格式不对", 400);
+
   const exercise = getExerciseById(parsed.data.exercise_id);
-  if (!exercise) {
-    return NextResponse.json(
-      { error: { code: "not_found", message_zh: "题目不存在" } },
-      { status: 404 },
-    );
-  }
+  if (!exercise) return apiError("not_found", "题目不存在", 404);
 
   let result;
   try {
     result = judgeSubmission(exercise, parsed.data.response);
   } catch (e) {
-    if (e instanceof SubmissionError) {
-      return NextResponse.json(
-        { error: { code: "bad_response", message_zh: "答案格式不对" } },
-        { status: 400 },
-      );
-    }
+    if (e instanceof SubmissionError) return apiError("bad_response", "答案格式不对", 400);
     throw e;
   }
 

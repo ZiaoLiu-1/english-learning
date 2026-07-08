@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
+import { apiError } from "@/lib/api";
 import { verifyCredentials } from "@/lib/auth/login";
 import { getAuthSecret } from "@/lib/auth/secret";
 import {
@@ -12,19 +13,10 @@ const body = z.object({ name: z.string().min(1), password: z.string().min(1) });
 
 export async function POST(req: Request) {
   const parsed = body.safeParse(await req.json().catch(() => null));
-  if (!parsed.success) {
-    return NextResponse.json(
-      { error: { code: "bad_request", message_zh: "请输入用户名和密码" } },
-      { status: 400 },
-    );
-  }
+  if (!parsed.success) return apiError("bad_request", "请输入用户名和密码", 400);
+
   const user = verifyCredentials(parsed.data.name, parsed.data.password);
-  if (!user) {
-    return NextResponse.json(
-      { error: { code: "invalid_credentials", message_zh: "用户名或密码不对" } },
-      { status: 401 },
-    );
-  }
+  if (!user) return apiError("invalid_credentials", "用户名或密码不对", 401);
   const token = createSessionToken(user, {
     secret: getAuthSecret(),
     now: Math.floor(Date.now() / 1000),
