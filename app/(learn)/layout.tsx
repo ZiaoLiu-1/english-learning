@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getCurrentUser } from "@/lib/auth/current-user";
 import LogoutButton from "./logout-button";
@@ -17,8 +18,18 @@ export default async function LearnLayout({
 
   return (
     <div className="flex min-h-screen flex-1 flex-col bg-amber-50">
-      <header className="flex items-center justify-between border-b border-stone-200 bg-white px-4 py-3 sm:px-8">
-        <span className="text-lg font-bold text-stone-900">英语学习</span>
+      <header className="flex items-center justify-between gap-3 border-b border-stone-200 bg-white px-4 py-3 sm:px-8">
+        <div className="flex min-w-0 items-center gap-4">
+          <Link href="/grammar" className="text-lg font-bold text-stone-900">
+            英语学习
+          </Link>
+          <Link
+            href="/grammar"
+            className="text-base font-medium text-stone-500 hover:text-emerald-600"
+          >
+            语法目录
+          </Link>
+        </div>
         <div className="flex items-center gap-3">
           <span className="hidden text-base text-stone-500 sm:inline">
             你好，{user.name}

@@ -3,5 +3,5 @@ import { getCurrentUser } from "@/lib/auth/current-user";
 
 export default async function RootPage() {
   const user = await getCurrentUser();
-  redirect(user ? "/grammar/L01" : "/login");
+  redirect(user ? "/grammar" : "/login");
 }

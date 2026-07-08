@@ -21,7 +21,7 @@ export default function LoginForm() {
     setStatus("loading");
     try {
       await login(name.trim(), password);
-      router.push("/grammar/L01");
+      router.push("/grammar");
       router.refresh();
     } catch (err) {
       setStatus("error");

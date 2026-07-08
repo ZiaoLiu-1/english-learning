@@ -39,13 +39,13 @@ export default async function GrammarLessonPage({
           还没找到「{code}」这节课
         </p>
         <p className="text-base text-stone-500">
-          可能是还没准备好，或者链接不对。要不先去学第一课？
+          可能是还没准备好，或者链接不对。要不回目录看看？
         </p>
         <Link
-          href="/grammar/L01"
+          href="/grammar"
           className="mt-2 inline-flex min-h-[48px] items-center rounded-2xl bg-emerald-600 px-6 text-lg font-semibold text-white hover:bg-emerald-700"
         >
-          去学 L01
+          返回目录
         </Link>
       </div>
     );
@@ -75,6 +75,12 @@ export default async function GrammarLessonPage({
   return (
     <div className="mx-auto flex w-full max-w-2xl flex-col gap-8 px-4 py-8 sm:py-10">
       <header className="flex flex-col gap-2">
+        <Link
+          href="/grammar"
+          className="inline-flex w-fit items-center gap-1 text-sm font-medium text-stone-500 hover:text-emerald-600"
+        >
+          <span aria-hidden>←</span> 返回目录
+        </Link>
         <span className="text-sm font-medium uppercase tracking-wide text-emerald-600">
           {lesson.point.code}
         </span>

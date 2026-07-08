@@ -5,7 +5,7 @@ import LoginForm from "./login-form";
 export default async function LoginPage() {
   const user = await getCurrentUser();
   if (user) {
-    redirect("/grammar/L01");
+    redirect("/grammar");
   }
 
   return (
