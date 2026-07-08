@@ -34,15 +34,21 @@
 - **账号**：learner 密码 `xiao520QIAN.`（gary 给的，含末尾句点）；admin(gary) 仍是临时随机密码（要用告诉我改）
 - 更新部署方法（无 CI，源码非 git checkout）：本地 `git archive HEAD | ssh ... tar -x -C ~/english-platform` → 服务器 `docker compose -f docker/compose.yml build && up -d`（改密码/重置数据才需 `down -v`）
 
-## M1 已交付
+## M1 已交付（均已上线 ziaoliu.io/english）
 
-- **语法目录 + 导航壳**（已上线 ziaoliu.io/english）：登录落到 /grammar 目录，42 课按 4 阶段分组、L01-L03 可学（带进度/状态）、L04-L42「即将推出」；顶栏导航 + 课程页返回目录。数据层 lib/curriculum.ts（42 课大纲）+ lib/progress.ts（getCurriculumProgress 按 attempts 算每课进度）
+- **语法目录 + 导航壳**：登录落 /grammar 目录，42 课按 4 阶段分组、L01-L03 可学（带进度）、L04-L42「即将推出」。lib/curriculum.ts（42 课大纲）+ lib/progress.ts
+- **SRS 复习闭环（CORE-3 + GRAM-4）**：lib/srs.ts（SM-2，测试先行 100% 分支）；答题即进/推 SRS 卡（lib/review.ts）；/review 复习队列（复用 ExerciseRunner）、/review/mistakes 错题本（按语法点聚合）、顶栏"复习"入口 + 到期角标；GET /api/srs/queue
 
 ## 下一步（≤3 条，按优先级）
 
-1. M1 功能续（PLAN §9）：诊断测试 CORE-1、每日计划 CORE-2、SRS CORE-3（lib/srs.ts 主会话亲自测试先行）、错题本 GRAM-4、听写引擎 LIST-2（lib/diff.ts 主会话亲自）、造句+文件模式批改 SPK-1/2、阶段 1 语法补到 L14 + 音标 P01-P08
+1. M1 功能续（PLAN §9）：诊断测试 CORE-1、每日计划 CORE-2（lib/plan.ts 主会话亲自测试先行，靠 SRS 到期数）、听写引擎 LIST-2（lib/diff.ts 主会话亲自 + VOA 素材管道）、造句+文件模式批改 SPK-1/2、阶段 1 语法补到 L14 + 音标 P01-P08
 2. L04-L14 起草排队（内容领先一周即可）
-3. 部署运维小项：把音频接进 UI 后加 `/english/audio/` 的 nginx alias（ADR-002 条件②）；配 https remote+token 让服务器能 git pull（免手动 archive）
+3. 部署运维小项：音频接 UI 后加 `/english/audio/` nginx alias（ADR-002 条件②）；配 https remote+token 让服务器能 git pull
+
+## M1 已知小项（择机）
+
+- 到期角标只在 (learn) layout 重渲染时重算；纯 soft navigation 后可能短暂 stale（day 粒度，可接受，整页刷新即更新）
+- SRS 当天答题后到期是"明天"（SM-2 正确行为），所以当天 /review 常为空；错题本给即时价值。造到期数据需改 srs_cards.due 才能当天体验复习流
 
 ## 待 gary（部署相关）
 
