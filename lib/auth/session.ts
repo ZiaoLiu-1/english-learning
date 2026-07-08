@@ -66,6 +66,5 @@ export function verifySessionToken(
   if (!parsed.success) return null;
   if (parsed.data.exp <= opts.now) return null;
 
-  const { exp: _exp, ...user } = parsed.data;
-  return user;
+  return { uid: parsed.data.uid, name: parsed.data.name, role: parsed.data.role };
 }
