@@ -143,3 +143,8 @@ export interface QueueExercise {
 export function getReviewQueue(): Promise<{ exercises: QueueExercise[] }> {
   return getJson<{ exercises: QueueExercise[] }>(apiUrl("/api/srs/queue"));
 }
+
+/** Mark a today-plan item done; returns the updated list of done keys. */
+export function completePlanItem(key: string): Promise<{ done: string[] }> {
+  return postJson<{ done: string[] }>(apiUrl("/api/plan/complete-item"), { key });
+}

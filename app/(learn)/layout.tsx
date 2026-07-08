@@ -23,8 +23,14 @@ export default async function LearnLayout({
     <div className="flex min-h-screen flex-1 flex-col bg-amber-50">
       <header className="flex items-center justify-between gap-3 border-b border-stone-200 bg-white px-4 py-3 sm:px-8">
         <div className="flex min-w-0 items-center gap-4">
-          <Link href="/grammar" className="text-lg font-bold text-stone-900">
+          <Link href="/today" className="text-lg font-bold text-stone-900">
             英语学习
+          </Link>
+          <Link
+            href="/today"
+            className="text-base font-medium text-stone-500 hover:text-emerald-600"
+          >
+            今日
           </Link>
           <Link
             href="/grammar"
