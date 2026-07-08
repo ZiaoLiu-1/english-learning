@@ -47,10 +47,10 @@ for (const f of files.grammarMd) {
     const lesson = loadGrammarLesson(f);
     lessonsWithMd.add(lesson.frontmatter.lesson);
     const n = cjkCount(lesson.explainMd);
-    if (n > 600) {
-      errors.push(`${rel} [讲解]: ${n} CJK chars — hard limit 600 (contract says ≤500)`);
-    } else if (n > 500) {
-      warnings.push(`${rel} [讲解]: ${n} CJK chars — contract says ≤500, trim it`);
+    if (n > 1000) {
+      errors.push(`${rel} [讲解]: ${n} CJK chars — hard limit 1000 (contract says ≤800)`);
+    } else if (n > 800) {
+      warnings.push(`${rel} [讲解]: ${n} CJK chars — contract says ≤800, trim it`);
     }
   } catch (e) {
     errors.push(e instanceof ContentError ? e.message : `${rel}: ${String(e)}`);

@@ -98,7 +98,10 @@ export function runSeed(db: Db, contentRoot = process.cwd()): SeedResult {
     }
     const gpId = gpIdByCode.get(file.lesson);
     if (gpId === undefined) {
-      throw new Error(`seed: ${file.lesson}.exercises.json approved but ${file.lesson}.md is not`);
+      // .md is draft (e.g. lesson under revision) but exercises are approved —
+      // skip the exercises too; the old DB rows stay until the .md re-approves.
+      skipped.push(`${file.lesson}.exercises.json (waiting on ${file.lesson}.md)`);
+      continue;
     }
     for (const ex of file.exercises) {
       const row = {
