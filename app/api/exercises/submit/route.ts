@@ -6,6 +6,7 @@ import { db } from "@/lib/db";
 import { attempts } from "@/drizzle/schema";
 import { getExerciseById } from "@/lib/lessons";
 import { SubmissionError, judgeSubmission } from "@/lib/exercise-submit";
+import { scheduleFromAttempt } from "@/lib/review";
 
 const body = z.object({
   exercise_id: z.number().int().positive(),
@@ -42,6 +43,12 @@ export async function POST(req: Request) {
       msUsed: parsed.data.ms_used,
     })
     .run();
+
+  // Enter/advance the SRS schedule for this exercise (PLAN §5G CORE-3).
+  scheduleFromAttempt(user.uid, exercise.id, {
+    correct: result.correct,
+    usedHint: parsed.data.used_hint,
+  });
 
   return NextResponse.json({ result, explain_zh: exercise.explainZh });
 }
