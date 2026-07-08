@@ -2,6 +2,7 @@
   "name": "english-platform",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.16.1",
   "pnpm": {
     "onlyBuiltDependencies": [
       "better-sqlite3"

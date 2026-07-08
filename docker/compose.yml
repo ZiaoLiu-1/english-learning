@@ -1,0 +1,26 @@
+# english-platform — app only (ADR-002: host nginx reverse-proxies, no Caddy).
+# Binds to 127.0.0.1:8091 so nothing is exposed publicly until nginx maps
+# /english → here. Data (SQLite + audio) lives in a named volume.
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+      args:
+        NEXT_BASE_PATH: ${NEXT_BASE_PATH:-/english}
+    image: english-platform:local
+    container_name: english-platform-app
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8091:3000"
+    environment:
+      AUTH_SECRET: ${AUTH_SECRET:?set AUTH_SECRET (>=16 chars) in docker/.env}
+      SEED_ADMIN_NAME: ${SEED_ADMIN_NAME:-gary}
+      SEED_LEARNER_NAME: ${SEED_LEARNER_NAME:-learner}
+      SEED_ADMIN_PASSWORD: ${SEED_ADMIN_PASSWORD:?set SEED_ADMIN_PASSWORD in docker/.env}
+      SEED_LEARNER_PASSWORD: ${SEED_LEARNER_PASSWORD:?set SEED_LEARNER_PASSWORD in docker/.env}
+    volumes:
+      - english-data:/app/data
+
+volumes:
+  english-data:
