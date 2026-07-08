@@ -29,9 +29,35 @@
 
 ## 下一步（≤3 条，按优先级）
 
-1. **M1 首次部署（成果版）**：M0 成果（登录+L01-L03）先上 `ziaoliu.io/english`，走通部署链。需 gary 放行改 nginx。步骤见下方部署备忘（ADR-002 已批）
+1. **部署段二（改 nginx，等 gary 放行）**：段一已完成——app 在服务器 `127.0.0.1:8091` 跑通（build+run+curl，见下）。段二只差往 `ziaoliu.io.conf` 的 443 server 块加一段 location（见下方"段二待批 nginx 块"），改前备份 + `nginx -t`，需 gary 明确放行。**并在公开前把 docker/.env 的临时密码换成真实密码**（现为 temp-learner-pw / temp-admin-*，仅内网可达时用）
 2. M1 功能（PLAN §9）：诊断测试 CORE-1、每日计划 CORE-2、SRS CORE-3（lib/srs.ts 主会话亲自测试先行）、错题本 GRAM-4、听写引擎 LIST-2（lib/diff.ts 主会话亲自）、造句+文件模式批改 SPK-1/2、阶段 1 语法补到 L14 + 音标 P01-P08
 3. L04-L14 起草排队（内容领先一周即可）
+
+## 部署段一 —— 已完成（2026-07-07，不碰 nginx）
+
+- 部署目录 `/home/ubuntu/english-platform`（git archive 传入，非 git checkout —— 更新用重新 archive 或后续配 https remote+token）
+- `docker compose -f docker/compose.yml build && up -d`：镜像 `english-platform:local`、容器 `english-platform-app`、绑 **127.0.0.1:8091**（不公开）、named volume `english-platform_english-data`
+- 验证：开机 migrate+seed（3/75/54）、`/english/login` 200、`/english`→登录、端到端登录→grammar/L01 200；公网 IP:8091 不可达；现有站点（/amd、bridgesignal、13 容器）全不受影响
+- docker/.env 在服务器（gitignored）：AUTH_SECRET=openssl rand -hex 32；密码为临时值待换
+- gary 预览：`ssh -L 8091:127.0.0.1:8091 150.230.24.148` 后本地开 http://localhost:8091/english/login （learner / temp-learner-pw）
+
+## 段二待批 nginx 块（加到 ziaoliu.io.conf 的 443 server 块，照 /bridgesignal 先例）
+
+```nginx
+# English learning platform — Next.js (Docker 127.0.0.1:8091, basePath /english)
+location ^~ /english {
+    proxy_pass http://127.0.0.1:8091;
+    proxy_http_version 1.1;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_read_timeout 60s;
+    client_max_body_size 25m;   # M2 录音上传（ADR-002 条件①）
+}
+```
+改法：`sudo cp ziaoliu.io.conf ziaoliu.io.conf.bak-YYYYMMDD` → 加块 → `sudo nginx -t` → `sudo systemctl reload nginx`。
+（ADR-002 条件②/english/audio/ 走 nginx alias 待音频接入 UI 后再加；现 app 自带 /audio 路由可用）
 
 ## 遗留 Nits（reviewer M0，择机修）
 
