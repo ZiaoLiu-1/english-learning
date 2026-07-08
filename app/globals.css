@@ -12,15 +12,17 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/*
+ * 学习端基调：浅色默认、大字号、大点击区（PLAN §9 / CLAUDE §9）。
+ * 不跟随系统深色模式 — 目标用户是零基础成年初学者，浅色背景更容易长时间阅读。
+ */
+html {
+  font-size: 18px;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
 }
